@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: ed8cdaaf30a31cf448ec6146682be73a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Toph_Beifong:Head
+    100004: Toph_Beifong:HeadTop_End
+    100006: Toph_Beifong:Hips
+    100008: Toph_Beifong:LeftArm
+    100010: Toph_Beifong:LeftFoot
+    100012: Toph_Beifong:LeftForeArm
+    100014: Toph_Beifong:LeftHand
+    100016: Toph_Beifong:LeftHandIndex1
+    100018: Toph_Beifong:LeftHandIndex2
+    100020: Toph_Beifong:LeftHandIndex3
+    100022: Toph_Beifong:LeftHandIndex4
+    100024: Toph_Beifong:LeftHandThumb1
+    100026: Toph_Beifong:LeftHandThumb2
+    100028: Toph_Beifong:LeftHandThumb3
+    100030: Toph_Beifong:LeftHandThumb4
+    100032: Toph_Beifong:LeftLeg
+    100034: Toph_Beifong:LeftShoulder
+    100036: Toph_Beifong:LeftToe_End
+    100038: Toph_Beifong:LeftToeBase
+    100040: Toph_Beifong:LeftUpLeg
+    100042: Toph_Beifong:Mesh
+    100044: Toph_Beifong:Neck
+    100046: Toph_Beifong:RightArm
+    100048: Toph_Beifong:RightFoot
+    100050: Toph_Beifong:RightForeArm
+    100052: Toph_Beifong:RightHand
+    100054: Toph_Beifong:RightHandIndex1
+    100056: Toph_Beifong:RightHandIndex2
+    100058: Toph_Beifong:RightHandIndex3
+    100060: Toph_Beifong:RightHandIndex4
+    100062: Toph_Beifong:RightHandThumb1
+    100064: Toph_Beifong:RightHandThumb2
+    100066: Toph_Beifong:RightHandThumb3
+    100068: Toph_Beifong:RightHandThumb4
+    100070: Toph_Beifong:RightLeg
+    100072: Toph_Beifong:RightShoulder
+    100074: Toph_Beifong:RightToe_End
+    100076: Toph_Beifong:RightToeBase
+    100078: Toph_Beifong:RightUpLeg
+    100080: Toph_Beifong:Spine
+    100082: Toph_Beifong:Spine1
+    100084: Toph_Beifong:Spine2
+    400000: //RootNode
+    400002: Toph_Beifong:Head
+    400004: Toph_Beifong:HeadTop_End
+    400006: Toph_Beifong:Hips
+    400008: Toph_Beifong:LeftArm
+    400010: Toph_Beifong:LeftFoot
+    400012: Toph_Beifong:LeftForeArm
+    400014: Toph_Beifong:LeftHand
+    400016: Toph_Beifong:LeftHandIndex1
+    400018: Toph_Beifong:LeftHandIndex2
+    400020: Toph_Beifong:LeftHandIndex3
+    400022: Toph_Beifong:LeftHandIndex4
+    400024: Toph_Beifong:LeftHandThumb1
+    400026: Toph_Beifong:LeftHandThumb2
+    400028: Toph_Beifong:LeftHandThumb3
+    400030: Toph_Beifong:LeftHandThumb4
+    400032: Toph_Beifong:LeftLeg
+    400034: Toph_Beifong:LeftShoulder
+    400036: Toph_Beifong:LeftToe_End
+    400038: Toph_Beifong:LeftToeBase
+    400040: Toph_Beifong:LeftUpLeg
+    400042: Toph_Beifong:Mesh
+    400044: Toph_Beifong:Neck
+    400046: Toph_Beifong:RightArm
+    400048: Toph_Beifong:RightFoot
+    400050: Toph_Beifong:RightForeArm
+    400052: Toph_Beifong:RightHand
+    400054: Toph_Beifong:RightHandIndex1
+    400056: Toph_Beifong:RightHandIndex2
+    400058: Toph_Beifong:RightHandIndex3
+    400060: Toph_Beifong:RightHandIndex4
+    400062: Toph_Beifong:RightHandThumb1
+    400064: Toph_Beifong:RightHandThumb2
+    400066: Toph_Beifong:RightHandThumb3
+    400068: Toph_Beifong:RightHandThumb4
+    400070: Toph_Beifong:RightLeg
+    400072: Toph_Beifong:RightShoulder
+    400074: Toph_Beifong:RightToe_End
+    400076: Toph_Beifong:RightToeBase
+    400078: Toph_Beifong:RightUpLeg
+    400080: Toph_Beifong:Spine
+    400082: Toph_Beifong:Spine1
+    400084: Toph_Beifong:Spine2
+    2100000: No Name
+    4300000: Toph_Beifong:Mesh
+    7400000: Standard Run
+    9500000: //RootNode
+    13700000: Toph_Beifong:Mesh
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Standard Run
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Toph_Beifong:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toph_Beifong:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Toph Beifong@Standard Run(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:Mesh
+      parentName: Toph Beifong@Standard Run(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:Hips
+      parentName: Toph Beifong@Standard Run(Clone)
+      position: {x: -0.00004115799, y: 0.005478396, z: -0.00013428125}
+      rotation: {x: -1.3552527e-16, y: 0.000000011641532, z: -0.000000011641532, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+    - name: Toph_Beifong:LeftUpLeg
+      parentName: Toph_Beifong:Hips
+      position: {x: -0.0007934153, y: -0.0004984447, z: 0.00006826313}
+      rotation: {x: -0.0001712868, y: 0.039213076, z: 0.9992213, w: 0.004364426}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000004}
+    - name: Toph_Beifong:LeftLeg
+      parentName: Toph_Beifong:LeftUpLeg
+      position: {x: 4.9814265e-13, y: 0.0024990188, z: -2.225776e-12}
+      rotation: {x: -0.13093798, y: 0.00047356516, z: -0.003585562, w: 0.991384}
+      scale: {x: 1.0000011, y: 1.000001, z: 1.0000005}
+    - name: Toph_Beifong:LeftFoot
+      parentName: Toph_Beifong:LeftLeg
+      position: {x: -6.8534066e-14, y: 0.0017458288, z: -9.187825e-12}
+      rotation: {x: 0.53829193, y: -0.0652896, z: 0.04187995, w: 0.8391813}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.9999996}
+    - name: Toph_Beifong:LeftToeBase
+      parentName: Toph_Beifong:LeftFoot
+      position: {x: 3.549172e-12, y: 0.0010885224, z: 2.1262834e-11}
+      rotation: {x: 0.2988363, y: 0.041111957, z: -0.012887191, w: 0.9533313}
+      scale: {x: 1.000001, y: 1.0000008, z: 0.9999998}
+    - name: Toph_Beifong:LeftToe_End
+      parentName: Toph_Beifong:LeftToeBase
+      position: {x: -1.0915532e-13, y: 0.0004552996, z: -1.886167e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:RightUpLeg
+      parentName: Toph_Beifong:Hips
+      position: {x: 0.0007934153, y: -0.0004984447, z: 0.0000913704}
+      rotation: {x: 0.00005132009, y: 0.011713855, z: 0.9999218, w: -0.0043797726}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Toph_Beifong:RightLeg
+      parentName: Toph_Beifong:RightUpLeg
+      position: {x: 3.7828546e-13, y: 0.0024920178, z: -2.9726254e-12}
+      rotation: {x: -0.07013833, y: -0.00024455506, z: 0.0034785436, w: 0.99753124}
+      scale: {x: 1.000001, y: 1.0000006, z: 0.99999994}
+    - name: Toph_Beifong:RightFoot
+      parentName: Toph_Beifong:RightLeg
+      position: {x: 4.4957232e-13, y: 0.001728106, z: -1.117735e-12}
+      rotation: {x: 0.51223826, y: 0.067724116, z: -0.04056428, w: 0.85520756}
+      scale: {x: 1.0000004, y: 1.0000012, z: 0.99999994}
+    - name: Toph_Beifong:RightToeBase
+      parentName: Toph_Beifong:RightFoot
+      position: {x: -2.4555278e-12, y: 0.0010963526, z: -1.8420578e-11}
+      rotation: {x: 0.29643574, y: -0.04717086, z: 0.01466084, w: 0.9537746}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999996}
+    - name: Toph_Beifong:RightToe_End
+      parentName: Toph_Beifong:RightToeBase
+      position: {x: 5.3281755e-13, y: 0.00046295047, z: 1.548555e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:Spine
+      parentName: Toph_Beifong:Hips
+      position: {x: -0, y: 0.0008978456, z: 0.000016069132}
+      rotation: {x: 0.008947622, y: -0.000000014473212, z: 0.000000008861004, w: 0.99996}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toph_Beifong:Spine1
+      parentName: Toph_Beifong:Spine
+      position: {x: -0, y: 0.0010476543, z: -2.0715761e-13}
+      rotation: {x: -0, y: 0.0000000058198353, z: -1.04160076e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:Spine2
+      parentName: Toph_Beifong:Spine1
+      position: {x: -0, y: 0.00119732, z: 9.142586e-13}
+      rotation: {x: -2.5411e-17, y: -0.000000004286757, z: 0.000000004442997, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:RightShoulder
+      parentName: Toph_Beifong:Spine2
+      position: {x: 0.00039592324, y: 0.0010501691, z: 0.000005602559}
+      rotation: {x: 0.5762245, y: 0.4128329, z: -0.5693157, w: 0.41643018}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000007}
+    - name: Toph_Beifong:RightArm
+      parentName: Toph_Beifong:RightShoulder
+      position: {x: 1.3553664e-13, y: 0.0010244991, z: -7.419182e-12}
+      rotation: {x: -0.1248668, y: -0.0001738667, z: -0.0009306071, w: 0.9921731}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.9999999}
+    - name: Toph_Beifong:RightForeArm
+      parentName: Toph_Beifong:RightArm
+      position: {x: -1.7133775e-12, y: 0.0017419235, z: 6.4050716e-11}
+      rotation: {x: -0.0064883595, y: 0.0047336044, z: 0.0233417, w: 0.9996953}
+      scale: {x: 1, y: 1.0000012, z: 1.0000006}
+    - name: Toph_Beifong:RightHand
+      parentName: Toph_Beifong:RightForeArm
+      position: {x: 2.5780808e-12, y: 0.0014693555, z: -9.665391e-12}
+      rotation: {x: -0.011485904, y: 0.16846055, z: 0.035058662, w: 0.9850178}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1.0000001}
+    - name: Toph_Beifong:RightHandIndex1
+      parentName: Toph_Beifong:RightHand
+      position: {x: -3.123006e-11, y: 0.0008384645, z: 0.0000035663902}
+      rotation: {x: -0.052860107, y: -0.000092744805, z: -0.0042329403, w: 0.998593}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999994}
+    - name: Toph_Beifong:RightHandIndex2
+      parentName: Toph_Beifong:RightHandIndex1
+      position: {x: -0.0000021494488, y: 0.0002711848, z: 7.458014e-12}
+      rotation: {x: -0.019246884, y: 0.00000015061232, z: 0.00000006870005, w: 0.9998148}
+      scale: {x: 1.0000001, y: 1.0000012, z: 1.0000008}
+    - name: Toph_Beifong:RightHandIndex3
+      parentName: Toph_Beifong:RightHandIndex2
+      position: {x: 0.0000006777212, y: 0.0002109694, z: 1.9532853e-11}
+      rotation: {x: 0.0013108086, y: -0.00000006177218, z: -0.000000014753916, w: 0.99999917}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000002}
+    - name: Toph_Beifong:RightHandIndex4
+      parentName: Toph_Beifong:RightHandIndex3
+      position: {x: 0.0000014717201, y: 0.00019965196, z: 1.8529131e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:RightHandThumb1
+      parentName: Toph_Beifong:RightHand
+      position: {x: -0.00017759032, y: 0.00038138457, z: -2.3025755e-11}
+      rotation: {x: -0.06252142, y: -0.011008187, z: 0.30144876, w: 0.9513667}
+      scale: {x: 1.0000001, y: 1, z: 0.9999996}
+    - name: Toph_Beifong:RightHandThumb2
+      parentName: Toph_Beifong:RightHandThumb1
+      position: {x: 0.000029315925, y: 0.0003352847, z: 1.7841839e-11}
+      rotation: {x: 0.016252952, y: -0.0028903838, z: -0.10779768, w: 0.9940358}
+      scale: {x: 0.9999999, y: 0.9999997, z: 1.0000004}
+    - name: Toph_Beifong:RightHandThumb3
+      parentName: Toph_Beifong:RightHandThumb2
+      position: {x: -0.000044452165, y: 0.00022782487, z: -5.2411708e-12}
+      rotation: {x: 0.015122954, y: -0.0024199768, z: 0.11664051, w: 0.9930562}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1}
+    - name: Toph_Beifong:RightHandThumb4
+      parentName: Toph_Beifong:RightHandThumb3
+      position: {x: 0.000015136262, y: 0.00014339386, z: -6.8993807e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:Neck
+      parentName: Toph_Beifong:Spine2
+      position: {x: -0, y: 0.0013469837, z: 1.8868615e-11}
+      rotation: {x: -0.008947645, y: 0.0000000014160741, z: -0.000000004378421, w: 0.99996}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Toph_Beifong:Head
+      parentName: Toph_Beifong:Neck
+      position: {x: -0, y: 0.0006480837, z: 0.000065890985}
+      rotation: {x: 0.00000002328306, y: -0.0000000058207665, z: 0.000000004365574,
+        w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Toph_Beifong:HeadTop_End
+      parentName: Toph_Beifong:Head
+      position: {x: -0, y: 0.0026079798, z: 0.00026515455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:LeftShoulder
+      parentName: Toph_Beifong:Spine2
+      position: {x: -0.00039592324, y: 0.0010501586, z: 0.0000050220942}
+      rotation: {x: 0.57468766, y: -0.41536632, z: 0.5709334, w: 0.4138116}
+      scale: {x: 1, y: 0.99999964, z: 0.99999964}
+    - name: Toph_Beifong:LeftArm
+      parentName: Toph_Beifong:LeftShoulder
+      position: {x: -1.9479928e-13, y: 0.0010244991, z: -7.41786e-12}
+      rotation: {x: -0.124775335, y: -0.0008433907, z: 0.0058473046, w: 0.9921675}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000013}
+    - name: Toph_Beifong:LeftForeArm
+      parentName: Toph_Beifong:LeftArm
+      position: {x: -1.9607108e-13, y: 0.0017421471, z: 7.3598586e-11}
+      rotation: {x: -0.009980661, y: -0.0056915483, z: -0.026584541, w: 0.99958056}
+      scale: {x: 1.0000005, y: 1.0000013, z: 1.0000007}
+    - name: Toph_Beifong:LeftHand
+      parentName: Toph_Beifong:LeftForeArm
+      position: {x: -1.0625937e-11, y: 0.0014781883, z: 1.5024437e-11}
+      rotation: {x: 0.0049998984, y: -0.17001487, z: -0.01719061, w: 0.9852789}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Toph_Beifong:LeftHandThumb1
+      parentName: Toph_Beifong:LeftHand
+      position: {x: 0.0001853966, y: 0.00037040914, z: -1.9240137e-10}
+      rotation: {x: -0.07644674, y: 0.014973875, z: -0.3139187, w: 0.9462488}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: Toph_Beifong:LeftHandThumb2
+      parentName: Toph_Beifong:LeftHandThumb1
+      position: {x: -0.000025560184, y: 0.00033038578, z: -1.2701099e-11}
+      rotation: {x: 0.016292345, y: 0.0011680687, z: 0.07536468, w: 0.99702233}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: Toph_Beifong:LeftHandThumb3
+      parentName: Toph_Beifong:LeftHandThumb2
+      position: {x: 0.00003185681, y: 0.00022379802, z: 9.10503e-12}
+      rotation: {x: -0.006632886, y: -0.00045700718, z: -0.053340226, w: 0.9985543}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: Toph_Beifong:LeftHandThumb4
+      parentName: Toph_Beifong:LeftHandThumb3
+      position: {x: -0.0000062966124, y: 0.00014927857, z: -9.904327e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toph_Beifong:LeftHandIndex1
+      parentName: Toph_Beifong:LeftHand
+      position: {x: 3.7750636e-11, y: 0.00083525915, z: 0.0000073123533}
+      rotation: {x: -0.079057835, y: 0.00591406, z: -0.0045489166, w: 0.9968422}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000005}
+    - name: Toph_Beifong:LeftHandIndex2
+      parentName: Toph_Beifong:LeftHandIndex1
+      position: {x: -0.0000025632294, y: 0.0002769613, z: 4.0762047e-12}
+      rotation: {x: 0.03560245, y: 0.0016917997, z: 0.024043087, w: 0.9990754}
+      scale: {x: 0.9999998, y: 0.99999964, z: 1.0000006}
+    - name: Toph_Beifong:LeftHandIndex3
+      parentName: Toph_Beifong:LeftHandIndex2
+      position: {x: 0.000013728298, y: 0.00019819106, z: -9.69162e-12}
+      rotation: {x: -0.032764446, y: -0.0008463126, z: -0.048806343, w: 0.99827033}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: Toph_Beifong:LeftHandIndex4
+      parentName: Toph_Beifong:LeftHandIndex3
+      position: {x: -0.000011165056, y: 0.00020233974, z: 1.5867763e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: f06ae0c18e284134bb1db590f2e6b164
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - anim: {instanceID: 0}
+  - cv: {instanceID: 0}
+  - source: {instanceID: 0}
+  - fireSound: {instanceID: 0}
+  - drawSound: {instanceID: 0}
+  - muzzle: {instanceID: 0}
+  - bulletGo: {instanceID: 0}
+  - blood: {instanceID: 0}
+  - concrete: {instanceID: 0}
+  - wood: {instanceID: 0}
+  - metal: {instanceID: 0}
+  - dirt: {instanceID: 0}
+  - rightHandObj: {instanceID: 0}
+  - leftHandObj: {instanceID: 0}
+  - Opation: {fileID: 11400000, guid: 7c382ceb7d258254d8f6dfaacfce8d43, type: 2}
+  - Player: {instanceID: 0}
+  - BT: {fileID: 402292, guid: 7d4c602759b9155439d0978cd487a4ea, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
