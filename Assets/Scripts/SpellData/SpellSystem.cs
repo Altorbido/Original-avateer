@@ -1,34 +1,42 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
 
+    public enum SpallGOPos{
+        Hand,
+        Leg,
+        GroundWall, 
+		        Ground,  
+ 
+    }
 
 [System.Serializable]
 public class Spell{
 	public string SpellName;
-
+public SpallGOPos SGP; //Spall Go pos
 public GameObject SpellPrefab;
 public float ManaCoast;
 public float CoolDown;
 	public float timer = 0;
 	public string SpellButton;
-	public bool LegSpell;
 	public string SpellTriger;
 	public float AnimationID;
 	public List<SPC> Compos;
 	public int AnimationNumber;
+		[HideInInspector]
 	public float Combotimer = 0;
 	public bool Parent;
 	public bool NeedAim;
+	[HideInInspector]
 	public Transform SpellGO;
-	public Quaternion LookAt;
 	public bool CanLockOn;
 }
 
 [System.Serializable]
 public class SPC{
+		[HideInInspector]
 	public Transform SPellGO1;
 	public string ComponAinmName;
 	public bool Done;
@@ -68,6 +76,7 @@ public bool CIA; // Camera in Angle
 public Transform CamerTarget;
 public Vector3 NormailPos;
 public Vector3 AimPos;
+public Transform GroundWallGo;
 	 private void Start() {
 		 		Animator anim = GetComponent<Animator>();
 
@@ -131,6 +140,9 @@ if(S.CanLockOn){
 			SA.photonView.RPC ("AttackAnim", PhotonTargets.AllBuffered, S.SpellTriger, S.SpellName,Aim,S.AnimationID,0f);					
 			Locking.LockOn(false);
 	}
+	if(Input.GetButtonUp (S.SpellButton)&& Locking.lockedOn){
+					Locking.LockOn(false);
+	}
 }else{
 				if (SA && Input.GetButtonDown (S.SpellButton) && S.timer == 0 && !SpellPlaying) {
 			SA.photonView.RPC ("AttackAnim", PhotonTargets.AllBuffered, S.SpellTriger, S.SpellName,Aim,S.AnimationID,0f);
@@ -177,9 +189,13 @@ if(S.CanLockOn){
 						Debug.Log("noAim Return" + S.NeedAim );
 						return;
 					}
-	if (S.LegSpell) {
-							GameObject TheEffect = S.SpellPrefab;
-						GameObject Ef = PhotonNetwork.Instantiate (TheEffect.name, S.SpellGO.position, Cam.transform.rotation, 0, null);
+						GameObject TheEffect = S.SpellPrefab;
+							GameObject Ef =  null;
+
+  switch (S.SGP)
+        {
+            case SpallGOPos.Leg:
+					Ef	= PhotonNetwork.Instantiate (TheEffect.name, S.SpellGO.position, Cam.transform.rotation, 0, null);
 							Mana -= S.ManaCoast;
 							if(S.Parent){
 							Ef.transform.SetParent (S.SpellGO);
@@ -189,9 +205,9 @@ if(S.CanLockOn){
 								Ef.GetComponent<FireReng> ().Owner = this.transform;
 							}
 							S.timer = S.CoolDown;
-						} else {
-							
-							GameObject TheEffect = S.SpellPrefab;
+							break;
+					 
+             case SpallGOPos.Hand:
 							if(S.Compos.Count > 0){
 								Debug.Log("We have a Cmopo");
 								foreach (SPC C in S.Compos) {
@@ -203,7 +219,6 @@ if(S.CanLockOn){
 										}
 										S.SpellTriger = S.Compos[S.AnimationNumber].ComponAinmName;
 
-                      GameObject Ef =  null;
 					  if(Aim){
 					 Ef = PhotonNetwork.Instantiate (TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
 					  }else{
@@ -231,11 +246,10 @@ if(S.CanLockOn){
 									}
 								}
 							}else{
-		GameObject Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name, S.SpellGO.position, Quaternion.Euler(S.SpellGO.forward), 0, null);
+		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name, S.SpellGO.position, Quaternion.Euler(S.SpellGO.forward), 0, null);
 								
 							Mana -= S.ManaCoast;
 						//	Ef.transform.rotation = -S.SpellGO.rotation;
-							Ef.name = "test";
 							if(S.Parent){
 								Ef.transform.SetParent (S.SpellGO);
 								}
@@ -244,7 +258,18 @@ if(S.CanLockOn){
 							}
 
 
-						}
+						break;
+				   case SpallGOPos.GroundWall:
+		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name,GroundWallGo.position, GroundWallGo.rotation, 0, null);
+							Mana -= S.ManaCoast;
+
+						break;
+				   case SpallGOPos.Ground:
+		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name,GroundWallGo.position, GroundWallGo.rotation, 0, null);
+							Mana -= S.ManaCoast;
+
+						break;
+					}
 					}
 				}
 			}

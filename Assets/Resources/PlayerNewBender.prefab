@@ -333,13 +333,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MYSpellsList:
   - SpellName: FireBall
+    SGP: 0
     SpellPrefab: {fileID: 1039892961843372, guid: 6c7b618b4e650ca45b9d58e0f367cef5,
       type: 3}
     ManaCoast: 15
     CoolDown: 10
     timer: 0
     SpellButton: Fire1
-    LegSpell: 0
     SpellTriger: Hand
     AnimationID: 0
     Compos:
@@ -357,16 +357,15 @@ MonoBehaviour:
     Parent: 0
     NeedAim: 1
     SpellGO: {fileID: 0}
-    LookAt: {x: 0, y: 0, z: 0, w: 0}
     CanLockOn: 0
   - SpellName: FireKick
+    SGP: 1
     SpellPrefab: {fileID: 1952708203345682, guid: d97430273afe39d49aebb4ff1775ed12,
       type: 3}
     ManaCoast: 20
     CoolDown: 8
     timer: 0
     SpellButton: Kick
-    LegSpell: 1
     SpellTriger: Leg
     AnimationID: 0
     Compos: []
@@ -376,16 +375,15 @@ MonoBehaviour:
     NeedAim: 0
     SpellGO: {fileID: 4274297168556157546, guid: 17fc17784f037b547b966c7e0faa15c4,
       type: 3}
-    LookAt: {x: 0, y: 0, z: 0, w: 0}
     CanLockOn: 0
   - SpellName: FireWoosh
+    SGP: 0
     SpellPrefab: {fileID: 4399787951951279486, guid: 7c171739a2d5d9647bdd0f2cc3b17f9d,
       type: 3}
     ManaCoast: 6
     CoolDown: 4
     timer: 0
     SpellButton: Qbutton
-    LegSpell: 0
     SpellTriger: Hand
     AnimationID: 0
     Compos:
@@ -397,7 +395,6 @@ MonoBehaviour:
     Parent: 0
     NeedAim: 0
     SpellGO: {fileID: 0}
-    LookAt: {x: 0, y: 0, z: 0, w: 0}
     CanLockOn: 1
   Mana: 100
   Aim: 0
@@ -416,6 +413,7 @@ MonoBehaviour:
   CamerTarget: {fileID: 6065673602641434873}
   NormailPos: {x: -0.02, y: 0.374, z: 0}
   AimPos: {x: 0.5, y: 0.374, z: 0.7}
+  GroundWallGo: {fileID: 0}
 --- !u!114 &8796065733109495809
 MonoBehaviour:
   m_ObjectHideFlags: 0
