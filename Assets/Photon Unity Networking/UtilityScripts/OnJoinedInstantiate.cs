@@ -36,7 +36,7 @@ public class OnJoinedInstantiate : MonoBehaviour
                 Vector3 itempos = spawnPos + this.PositionOffset * random;
 
 				GameObject Player   =  PhotonNetwork.Instantiate(o.name, itempos, Quaternion.identity, 0);
-				if (SceneCame) {
+            	if (SceneCame) {
 					SceneCame.gameObject.SetActive (false);
 				}
                 if(Player.GetComponent<HUD> ()){
