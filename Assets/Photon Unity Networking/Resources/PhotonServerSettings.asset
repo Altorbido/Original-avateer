@@ -28,22 +28,21 @@ MonoBehaviour:
   NetworkLogging: 1
   RunInBackground: 1
   RpcList:
+  - ApplyDamage
+  - AttackAnim
   - Chat
+  - Delete
   - DestroyRpc
+  - Die
+  - Heal
   - InstantiateRpc
   - PickupItemInit
   - PunPickup
   - PunPickupSimple
   - PunRespawn
+  - ReginMana
+  - RemoveBot
   - RequestForPickupItems
   - RequestForPickupTimes
-  - ApplyDamage
-  - Delete
-  - Die
-  - Heal
-  - RemoveBot
   - TakeDamage
-  - FireEfeect
-  - ReginMana
-  - AttackAnim
   DisableAutoOpenWizard: 1
