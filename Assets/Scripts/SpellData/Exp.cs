@@ -7,7 +7,7 @@ public class Exp : Photon.MonoBehaviour {
 	 public float explosionDamage = 100.0f;
 	public float explosionTimeout = 2.0f;
 	public LayerMask Mask;
-
+public Transform Owner;
 	// Use this for initialization
 	void Start () {
 
@@ -25,7 +25,8 @@ public class Exp : Photon.MonoBehaviour {
 				// The hit points we apply fall decrease with distance from the explosion point
 				float hitPoints = 1.0f - Mathf.Clamp01 (distance / explosionRadius);
 				hitPoints *= explosionDamage;
-				if (hit.transform.root.GetComponent<PhotonView> () && hit.tag == "Player" || hit.tag == "Enemy") {
+				
+				if (hit.transform != Owner && hit.transform.root.GetComponent<PhotonView> () && hit.tag == "Player" || hit.tag == "Enemy") {
 					if(photonView.isMine){
 					// Tell the rigidbody or any other script attached to the hit object how much damage is to be applied!
 					hit.transform.root.GetComponent<PhotonView> ().RPC ("ApplyDamage", PhotonTargets.AllBuffered, hitPoints, PhotonNetwork.player.NickName);

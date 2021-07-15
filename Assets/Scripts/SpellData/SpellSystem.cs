@@ -196,6 +196,8 @@ if(S.CanLockOn){
         {
             case SpallGOPos.Leg:
 					Ef	= PhotonNetwork.Instantiate (TheEffect.name, S.SpellGO.position, Cam.transform.rotation, 0, null);
+								Ef.GetComponentInChildren<RFX1_TransformMotion>().Owner = this.transform;
+
 							Mana -= S.ManaCoast;
 							if(S.Parent){
 							Ef.transform.SetParent (S.SpellGO);
@@ -221,8 +223,12 @@ if(S.CanLockOn){
 
 					  if(Aim){
 					 Ef = PhotonNetwork.Instantiate (TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
+								Ef.GetComponentInChildren<RFX1_TransformMotion>().Owner = this.transform;
+
 					  }else{
 				Ef = PhotonNetwork.Instantiate (TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
+						Ef.GetComponentInChildren<RFX1_TransformMotion>().Owner = this.transform;
+
 				if(Locking.target)
                     Ef.transform.LookAt(Locking.target.position +Locking.Offset );
 					  }
@@ -247,7 +253,8 @@ if(S.CanLockOn){
 								}
 							}else{
 		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name, S.SpellGO.position, Quaternion.Euler(S.SpellGO.forward), 0, null);
-								
+									Ef.GetComponentInChildren<RFX1_TransformMotion>().Owner = this.transform;
+		
 							Mana -= S.ManaCoast;
 						//	Ef.transform.rotation = -S.SpellGO.rotation;
 							if(S.Parent){
@@ -261,16 +268,21 @@ if(S.CanLockOn){
 						break;
 				   case SpallGOPos.GroundWall:
 		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name,GroundWallGo.position, GroundWallGo.rotation, 0, null);
+								Ef.GetComponentInChildren<RFX1_TransformMotion>().Owner = this.transform;
+
 							Mana -= S.ManaCoast;
 
 						break;
 				   case SpallGOPos.Ground:
 		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name,GroundWallGo.position, GroundWallGo.rotation, 0, null);
+					Ef.GetComponentInChildren<RFX1_TransformMotion>().Owner = this.transform;
+
 							Mana -= S.ManaCoast;
 
 						break;
 					}
 					}
+
 				}
 			}
 		

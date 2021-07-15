@@ -42,6 +42,7 @@ public class RFX1_TransformMotion : Photon.MonoBehaviour
     public event EventHandler<RFX1_CollisionInfo> CollisionEnter;
     Vector3 randomTimeOffset;
 	public float Damdge;
+    public Transform Owner;
     void Start()
     {
         t = transform;
@@ -188,7 +189,7 @@ public class RFX1_TransformMotion : Photon.MonoBehaviour
             var instance = new GameObject();
           if(effect.name == "Exp"){
               instance =  PhotonNetwork.Instantiate(effect.name, hit.point + hit.normal * CollisionOffset, new Quaternion(), 0);
-
+instance.GetComponent<Exp>().Owner = Owner;
           }else{
              instance =   Instantiate(effect, hit.point + hit.normal * CollisionOffset, new Quaternion()) as GameObject;
           }
