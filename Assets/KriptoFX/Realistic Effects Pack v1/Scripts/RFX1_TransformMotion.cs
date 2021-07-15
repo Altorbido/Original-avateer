@@ -179,6 +179,8 @@ public class RFX1_TransformMotion : Photon.MonoBehaviour
 
     void OnCollisionBehaviour(RaycastHit hit)
     {
+        if(!photonView.isMine)
+        return;
         var handler = CollisionEnter;
         if (handler != null)
             handler(this, new RFX1_CollisionInfo {Hit = hit});
