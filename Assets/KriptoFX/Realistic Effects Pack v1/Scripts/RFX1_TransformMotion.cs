@@ -186,7 +186,8 @@ public class RFX1_TransformMotion : Photon.MonoBehaviour
         foreach (var effect in EffectsOnCollision)
         {
             var instance = new GameObject();
-          if(effect.name == "Exp"){
+          if(effect.name == "Exp" && photonView.isMine){
+            
               instance =  PhotonNetwork.Instantiate(effect.name, hit.point + hit.normal * CollisionOffset, new Quaternion(), 0);
 
           }else{
