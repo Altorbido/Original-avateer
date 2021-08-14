@@ -151,8 +151,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8960133560168986928}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.82201, y: 59.440987, z: 90.46415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04243443, y: 0, z: 0.033525072}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1275548796326509567}
@@ -393,6 +393,26 @@ MonoBehaviour:
     AnimationNumber: 0
     Combotimer: 0
     Parent: 0
+    NeedAim: 0
+    SpellGO: {fileID: 0}
+    CanLockOn: 1
+  - SpellName: FireBlast
+    SGP: 1
+    SpellPrefab: {fileID: 200428876437925042, guid: 82f24b429aa4b6d4d902f51cebd5a040,
+      type: 3}
+    ManaCoast: 6
+    CoolDown: 4
+    timer: 0
+    SpellButton: Xbutton
+    SpellTriger: Hand
+    AnimationID: 1
+    Compos:
+    - SPellGO1: {fileID: 0}
+      ComponAinmName: Leg
+      Done: 0
+    AnimationNumber: 1
+    Combotimer: 0
+    Parent: 1
     NeedAim: 0
     SpellGO: {fileID: 0}
     CanLockOn: 1
