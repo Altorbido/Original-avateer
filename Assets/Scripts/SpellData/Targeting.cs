@@ -68,7 +68,7 @@ image = GameObject.FindGameObjectWithTag("Target").GetComponent<Image>();
                image.enabled = true;
 
             
-        }   else if (!Lock && lockedOn)
+        }   else if (image && !Lock && lockedOn)
         {
             lockedOn = false;
             image.enabled = false;
