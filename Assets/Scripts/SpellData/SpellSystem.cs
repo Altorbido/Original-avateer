@@ -32,6 +32,7 @@ public float CoolDown;
 	[HideInInspector]
 	public Transform SpellGO;
 	public bool CanLockOn;
+	public bool FollowCam;
 }
 
 [System.Serializable]
@@ -181,99 +182,101 @@ if(S.CanLockOn){
 		Mana ++;
 	}
 	public void SpawnEffect(string SpellName){
-		
-			foreach (Spell S in MYSpellsList) {
-				if (photonView.isMine) {
-					if (SpellName == S.SpellName && S.ManaCoast <= Mana ) {
-					if (S.NeedAim && !Aim ) {
-						Debug.Log("noAim Return" + S.NeedAim );
+		if (photonView.isMine)
+		{
+			foreach (Spell S in MYSpellsList)
+			{
+				if (SpellName == S.SpellName && S.ManaCoast <= Mana)
+				{
+					if (S.NeedAim && !Aim)
+					{
+						Debug.Log("noAim Return" + S.NeedAim);
 						return;
 						break;
 					}
-						GameObject TheEffect = S.SpellPrefab;
-							GameObject Ef =  null;
-
-  switch (S.SGP)
-        {
-            case SpallGOPos.Leg:
-					Ef	= PhotonNetwork.Instantiate (TheEffect.name, S.SpellGO.position, Cam.transform.rotation, 0, null);
-							Mana -= S.ManaCoast;
-							if(S.Parent){
-							Ef.transform.SetParent (S.SpellGO);
-							}
-							Ef.gameObject.layer = 9;
-							if (Ef.GetComponent<FireReng> ()) {
-								Ef.GetComponent<FireReng> ().Owner = this.transform;
-							}
-							S.timer = S.CoolDown;
-							break;
-					 
-             case SpallGOPos.Hand:
-							if(S.Compos.Count > 0){
-								Debug.Log("We have a Cmopo");
-								foreach (SPC C in S.Compos) {
-									if(!C.Done && C.SPellGO1){
-										Debug.Log("Compo Spawoning");
-										S.AnimationNumber = S.Compos.IndexOf(C);
-										if(C == S.Compos[0]){
-											S.Combotimer = 1f;
-										}
-										S.SpellTriger = S.Compos[S.AnimationNumber].ComponAinmName;
-
-					  if(Aim){
-					 Ef = PhotonNetwork.Instantiate (TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
-					  }else{
-				Ef = PhotonNetwork.Instantiate (TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
-				if(Locking.target)
-                    Ef.transform.LookAt(Locking.target.position +Locking.Offset );
-					  }
-										Mana -= S.ManaCoast;
-
-										Ef.gameObject.layer = 9;
-										C.Done = true;
-										if(S.AnimationNumber < S.Compos.Count -1){
-											S.AnimationNumber++;
-										}
-									//	S.AnimationNumber ;
-										S.SpellTriger = S.Compos[S.AnimationNumber].ComponAinmName;
-										Debug.Log("End");
-
-										if( S.SpellTriger == "Finish"){
-											S.timer = S.CoolDown;
-											RsetCombo(S);
-											S.SpellTriger = "Hand";
-										}
-										return;
-									}
-								}
-							}else{
-		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name, S.SpellGO.position, Quaternion.Euler(S.SpellGO.forward), 0, null);
-								
-							Mana -= S.ManaCoast;
+					GameObject TheEffect = S.SpellPrefab;
+					GameObject Ef = null;
+					if (S.Compos.Count == 0)
+					{
+						Quaternion SpellRotation = Quaternion.identity;
+						if (S.FollowCam)
+						{
+							SpellRotation = Cam.transform.rotation;
+						}
+						else
+						{
+							SpellRotation = Quaternion.Euler(S.SpellGO.forward);
+						}
+						Ef = PhotonNetwork.Instantiate(TheEffect.name, S.SpellGO.position, SpellRotation, 0, null);
+						if (Ef.GetComponent<FireReng>())
+						{
+							Ef.GetComponent<FireReng>().Owner = this.transform;
+						}
+						if (Locking.target)
+							Ef.transform.LookAt(Locking.target.position + Locking.Offset);
+						Mana -= S.ManaCoast;
 						//	Ef.transform.rotation = -S.SpellGO.rotation;
-							if(S.Parent){
-								Ef.transform.SetParent (S.SpellGO);
-								}
-								Ef.gameObject.layer = 9;
-								S.timer = S.CoolDown;
-							}
-
-
-						break;
-				   case SpallGOPos.GroundWall:
-		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name,GroundWallGo.position, GroundWallGo.rotation, 0, null);
-							Mana -= S.ManaCoast;
-
-						break;
-				   case SpallGOPos.Ground:
-		 Ef = PhotonNetwork.Instantiate (S.SpellPrefab.name,GroundWallGo.position, GroundWallGo.rotation, 0, null);
-							Mana -= S.ManaCoast;
-
-						break;
+						if (S.Parent)
+						{
+							Ef.transform.SetParent(S.SpellGO);
+						}
+						Ef.gameObject.layer = 9;
+						S.timer = S.CoolDown;
 					}
+					else
+					{
+						//Compo
+						Debug.Log("We have a Cmopo");
+						foreach (SPC C in S.Compos)
+						{
+							if (!C.Done && C.SPellGO1)
+							{
+								Debug.Log("Compo Spawoning");
+								S.AnimationNumber = S.Compos.IndexOf(C);
+								if (C == S.Compos[0])
+								{
+									S.Combotimer = 1f;
+								}
+								S.SpellTriger = S.Compos[S.AnimationNumber].ComponAinmName;
+
+								if (Aim)
+								{
+									Ef = PhotonNetwork.Instantiate(TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
+								}
+								else
+								{
+									Ef = PhotonNetwork.Instantiate(TheEffect.name, C.SPellGO1.position, Cam.transform.rotation, 0, null);
+									if (Locking.target)
+										Ef.transform.LookAt(Locking.target.position + Locking.Offset);
+								}
+								Mana -= S.ManaCoast;
+
+								Ef.gameObject.layer = 9;
+								C.Done = true;
+								if (S.AnimationNumber < S.Compos.Count - 1)
+								{
+									S.AnimationNumber++;
+								}
+								//	S.AnimationNumber ;
+								S.SpellTriger = S.Compos[S.AnimationNumber].ComponAinmName;
+								Debug.Log("End");
+
+								if (S.SpellTriger == "Finish")
+								{
+									S.timer = S.CoolDown;
+									RsetCombo(S);
+									S.SpellTriger = "Hand";
+								}
+								return;
+							}
+						}
 					}
 				}
 			}
+		}
+		else {
+			return;
+		}
 		
 	}
 
