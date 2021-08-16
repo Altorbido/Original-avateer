@@ -80,7 +80,6 @@ public Transform FindTarget (){
      GameObject[] targets = GameObject.FindGameObjectsWithTag("Player");
         Vector3 here = transform.position; 
 
-     Debug.Log(targets.Length);
 
      foreach (GameObject T in targets)
         {

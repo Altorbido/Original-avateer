@@ -159,8 +159,9 @@ if(S.CanLockOn){
 						RsetCombo1(S);
 				}
         }
+					Aim = Input.GetButtonDown("Fire2");
 
-			Aim = Input.GetButton ("Fire2");
+					Aim = Input.GetButton ("Fire2");
 
 			timer = Mathf.Clamp(timer, 0, ManaRateMax);
 				timer2 = Mathf.Clamp(timer2, 0, 10);
@@ -181,19 +182,33 @@ if(S.CanLockOn){
 	public void ReginMana(){
 		Mana ++;
 	}
-	public void SpawnEffect(string SpellName){
+	public void FindEffect(string SpellName) {
+		foreach (Spell S in MYSpellsList)
+		{
+			if (SpellName == S.SpellName && S.ManaCoast <= Mana)
+			{
+				if (S.CanLockOn && Aim)
+				{
+					Debug.Log("Abort Spell");
+					continue;
+				}
+				if (S.NeedAim && Aim)
+				{
+					spawnEffect(S);
+					Debug.Log("Spawn Spell : " + S.SpellName);
+					return;
+				}
+			
+				spawnEffect(S);
+				break;
+			}
+		}
+	}
+	 void spawnEffect(Spell S)
+	{
 		if (photonView.isMine)
 		{
-			foreach (Spell S in MYSpellsList)
-			{
-				if (SpellName == S.SpellName && S.ManaCoast <= Mana)
-				{
-					if (S.NeedAim && !Aim)
-					{
-						Debug.Log("noAim Return" + S.NeedAim);
-						return;
-						break;
-					}
+		
 					GameObject TheEffect = S.SpellPrefab;
 					GameObject Ef = null;
 					if (S.Compos.Count == 0)
@@ -271,8 +286,8 @@ if(S.CanLockOn){
 							}
 						}
 					}
-				}
-			}
+				
+			
 		}
 		else {
 			return;

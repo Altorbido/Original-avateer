@@ -4319,7 +4319,7 @@ ModelImporter:
       - time: 0.35625207
         functionName: SpawnEffect
         data: 
-        objectReferenceParameter: {fileID: 2748963704892556536, guid: fdff3a55434e52643bd6a0822084c2f7,
+        objectReferenceParameter: {fileID: 11500000, guid: c7c7f43406fb1714091ceb971110fe35,
           type: 3}
         floatParameter: 0
         intParameter: 0
@@ -6577,7 +6577,7 @@ ModelImporter:
       - time: 0.34243774
         functionName: SpawnEffect
         data: 
-        objectReferenceParameter: {fileID: 2748963704892556536, guid: fdff3a55434e52643bd6a0822084c2f7,
+        objectReferenceParameter: {fileID: 11500000, guid: c7c7f43406fb1714091ceb971110fe35,
           type: 3}
         floatParameter: 0
         intParameter: 0

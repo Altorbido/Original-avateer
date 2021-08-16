@@ -37,8 +37,8 @@ public Animator anim;
     void DisableAim(){
 		anim.SetBool("Aim",false);
 	}
-    void SpawnEffect(){
+    public void SpawnEffect(){
         if(photonView.isMine)
-		SS.SpawnEffect (CurrSpellName);
+		SS.FindEffect(CurrSpellName);
 	}
 }

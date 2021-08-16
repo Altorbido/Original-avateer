@@ -126,7 +126,7 @@ public class PlayerAnim : Photon.MonoBehaviour {
 		//dontMove = M;
 	}
 	void SpawnEffect(){
-		SS.SpawnEffect (CurrSpellName);
+		SS.FindEffect(CurrSpellName);
 
 	}
 	void FinishSpell(){
