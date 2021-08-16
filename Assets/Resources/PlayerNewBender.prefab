@@ -358,6 +358,7 @@ MonoBehaviour:
     NeedAim: 1
     SpellGO: {fileID: 0}
     CanLockOn: 0
+    FollowCam: 1
   - SpellName: FireKick
     SGP: 1
     SpellPrefab: {fileID: 1952708203345682, guid: d97430273afe39d49aebb4ff1775ed12,
@@ -376,6 +377,7 @@ MonoBehaviour:
     SpellGO: {fileID: 4274297168556157546, guid: 17fc17784f037b547b966c7e0faa15c4,
       type: 3}
     CanLockOn: 0
+    FollowCam: 0
   - SpellName: FireWoosh
     SGP: 0
     SpellPrefab: {fileID: 4399787951951279486, guid: 7c171739a2d5d9647bdd0f2cc3b17f9d,
@@ -386,19 +388,17 @@ MonoBehaviour:
     SpellButton: Qbutton
     SpellTriger: Hand
     AnimationID: 0
-    Compos:
-    - SPellGO1: {fileID: 0}
-      ComponAinmName: Hand
-      Done: 0
+    Compos: []
     AnimationNumber: 0
     Combotimer: 0
     Parent: 0
     NeedAim: 0
     SpellGO: {fileID: 0}
     CanLockOn: 1
+    FollowCam: 1
   - SpellName: Flame
     SGP: 1
-    SpellPrefab: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
+    SpellPrefab: {fileID: 2476568342802148608, guid: a61113c20f4f8f64895c493873bc5342,
       type: 3}
     ManaCoast: 6
     CoolDown: 4
@@ -416,6 +416,7 @@ MonoBehaviour:
     NeedAim: 0
     SpellGO: {fileID: 0}
     CanLockOn: 0
+    FollowCam: 0
   Mana: 100
   Aim: 0
   Cam: {fileID: 0}
