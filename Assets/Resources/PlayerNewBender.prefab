@@ -396,9 +396,9 @@ MonoBehaviour:
     NeedAim: 0
     SpellGO: {fileID: 0}
     CanLockOn: 1
-  - SpellName: FireBlast
+  - SpellName: Flame
     SGP: 1
-    SpellPrefab: {fileID: 200428876437925042, guid: 82f24b429aa4b6d4d902f51cebd5a040,
+    SpellPrefab: {fileID: 1973075987484898, guid: bccc7a794e75b2a44a4b0dac69160b7b,
       type: 3}
     ManaCoast: 6
     CoolDown: 4
@@ -408,14 +408,14 @@ MonoBehaviour:
     AnimationID: 1
     Compos:
     - SPellGO1: {fileID: 0}
-      ComponAinmName: Leg
+      ComponAinmName: Hand
       Done: 0
-    AnimationNumber: 1
+    AnimationNumber: 0
     Combotimer: 0
     Parent: 1
     NeedAim: 0
     SpellGO: {fileID: 0}
-    CanLockOn: 1
+    CanLockOn: 0
   Mana: 100
   Aim: 0
   Cam: {fileID: 0}

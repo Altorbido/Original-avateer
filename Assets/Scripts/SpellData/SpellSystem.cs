@@ -188,6 +188,7 @@ if(S.CanLockOn){
 					if (S.NeedAim && !Aim ) {
 						Debug.Log("noAim Return" + S.NeedAim );
 						return;
+						break;
 					}
 						GameObject TheEffect = S.SpellPrefab;
 							GameObject Ef =  null;
