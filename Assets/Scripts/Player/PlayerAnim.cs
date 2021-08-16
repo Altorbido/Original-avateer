@@ -92,11 +92,15 @@ public class PlayerAnim : Photon.MonoBehaviour {
 			anim.SetBool("Aim",Aim);
 			Invoke ("DisableAim", 0.3f);
 		}
+		float AI = 0f;
 		if(TN == "Hand"){
 			anim.SetLayerWeight(2, 1f);
+			int randId = Random.Range(0, 2);
+			Debug.Log("Random Animation ID = " + randId);
+			AI = (float)randId;
 		}
 		float NewHandID = (float)Random.Range(0,1);
-		anim.SetFloat("AAID", AnimID);
+		anim.SetFloat("AAID", AI);
 		anim.SetFloat("HandNumber", NewHandID);
 		anim.SetBool (TN,true);
 

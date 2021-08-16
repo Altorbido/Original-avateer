@@ -133,7 +133,7 @@ CamerTarget.localPosition = Vector3.Lerp (CamerTarget.localPosition, NormailPos,
 
 			foreach (Spell S in MYSpellsList) {
 				if(CIA){
-if(S.CanLockOn){
+if(S.CanLockOn && Aim == S.NeedAim){
 	if(Input.GetButtonDown (S.SpellButton)){
 		Locking.LockOn(true);
 	}
@@ -145,10 +145,17 @@ if(S.CanLockOn){
 					Locking.LockOn(false);
 	}
 }else{
-				if (SA && Input.GetButtonDown (S.SpellButton) && S.timer == 0 && !SpellPlaying) {
-			SA.photonView.RPC ("AttackAnim", PhotonTargets.AllBuffered, S.SpellTriger, S.SpellName,Aim,S.AnimationID,0f);
-					SpellPlaying =true;
-				}
+				if (SA && Input.GetButtonDown (S.SpellButton) && S.timer == 0 && !SpellPlaying ) {
+							if (!S.NeedAim )
+							{
+		SA.photonView.RPC("AttackAnim", PhotonTargets.AllBuffered, S.SpellTriger, S.SpellName, Aim, S.AnimationID, 0f);
+								SpellPlaying = true;
+							}
+							else if(S.NeedAim && Aim){
+	SA.photonView.RPC("AttackAnim", PhotonTargets.AllBuffered, S.SpellTriger, S.SpellName, Aim, S.AnimationID, 0f);
+								SpellPlaying = true;
+							}
+						}
 }
 				foreach (Spell s in MYSpellsList) {
 					s.timer = Mathf.Clamp(s.timer, 0, s.CoolDown);
@@ -183,22 +190,20 @@ if(S.CanLockOn){
 		Mana ++;
 	}
 	public void FindEffect(string SpellName) {
-		foreach (Spell S in MYSpellsList)
-		{
+		Debug.Log("Spell " + SpellName);
+		
+            for (int i = 0; i < MYSpellsList.Count; i++)
+            {
+			Spell S = MYSpellsList[i];
 			if (SpellName == S.SpellName && S.ManaCoast <= Mana)
 			{
-				if (S.CanLockOn && Aim)
-				{
-					Debug.Log("Abort Spell");
-					continue;
-				}
+			
 				if (S.NeedAim && Aim)
 				{
 					spawnEffect(S);
 					Debug.Log("Spawn Spell : " + S.SpellName);
 					return;
 				}
-			
 				spawnEffect(S);
 				break;
 			}

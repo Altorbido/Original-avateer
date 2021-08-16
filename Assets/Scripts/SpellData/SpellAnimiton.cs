@@ -21,8 +21,14 @@ public Animator anim;
 			anim.SetLayerWeight(2, 1f);
 		}
 		*/
+		float AI = 0f;
+		if (TN == "Hand")
+		{
+			int randId = Random.Range(0, 2);
+			AI = (float)randId;
+		}
 		float NewHandID = (float)Random.Range(0,1);
-		anim.SetFloat("AAID", AnimID);
+		anim.SetFloat("AAID", AI);
 		anim.SetFloat("HandNumber", NewHandID);
 		anim.SetTrigger (TN);
 
