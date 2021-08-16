@@ -383,7 +383,7 @@ MonoBehaviour:
     SpellPrefab: {fileID: 4399787951951279486, guid: 7c171739a2d5d9647bdd0f2cc3b17f9d,
       type: 3}
     ManaCoast: 6
-    CoolDown: 0
+    CoolDown: 0.5
     timer: 0
     SpellButton: Fire1
     SpellTriger: Hand
