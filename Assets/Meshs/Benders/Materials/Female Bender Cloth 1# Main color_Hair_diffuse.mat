@@ -9,13 +9,12 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Female Bender Cloth 1# Main color_Hair_diffuse
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_ShaderKeywords: _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -69,11 +68,11 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _GlossMapScale: 0.275
+    - _GlossMapScale: 0.438
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 1
+    - _Metallic: 0.131
+    - _Mode: 0
     - _OcclusionStrength: 1
     - _Outline: 0.005
     - _Parallax: 0.02
