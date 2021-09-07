@@ -22,10 +22,13 @@ public Animator anim;
 		}
 		*/
 		float AI = 0f;
-		if (TN == "Hand")
+		if ( AnimID <= 2)
 		{
 			int randId = Random.Range(0, 2);
 			AI = (float)randId;
+		}
+		else {
+			AI = AnimID;
 		}
 		float NewHandID = (float)Random.Range(0,1);
 		anim.SetFloat("AAID", AI);
