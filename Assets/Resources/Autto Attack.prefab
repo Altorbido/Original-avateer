@@ -65,7 +65,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 7991
   EffectsOnCollision:
-  - {fileID: 1808234796625915495, guid: f7c50094a367fec439b26a21964b767a, type: 3}
   - {fileID: 1148325190646528, guid: 9984e606f8e60e149b1d4d55c0235548, type: 3}
   CollisionOffset: 0.05
   DestroyTimeDelay: 200
