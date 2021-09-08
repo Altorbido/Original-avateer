@@ -380,7 +380,7 @@ MonoBehaviour:
     FollowCam: 0
   - SpellName: FireWoosh
     SGP: 0
-    SpellPrefab: {fileID: 4399787951951279486, guid: 7c171739a2d5d9647bdd0f2cc3b17f9d,
+    SpellPrefab: {fileID: 1039892961843372, guid: 58103a6aecb49a24c8817704acc3b41e,
       type: 3}
     ManaCoast: 6
     CoolDown: 0.5
@@ -538,7 +538,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 7987
   MyCollider: {fileID: 4292132660743888553}
-  Offset: {x: 0, y: 1, z: 0}
+  Offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &7320305960418502477
 PrefabInstance:
   m_ObjectHideFlags: 0
