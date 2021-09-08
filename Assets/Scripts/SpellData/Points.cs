@@ -69,6 +69,11 @@ public class Points : Photon.MonoBehaviour
     IEnumerator SpawnRate() {
         foreach (Vector3 Point in bluePositions)
         {
+            int index = bluePositions.IndexOf(Point);
+            if (index == 0 || index == 1 || index == 2)
+            {
+                continue;
+            }
             yield return new WaitForSeconds(spawnRate);
 
            // PhotonNetwork.Instantiate(Effect, Point, Quaternion.identity);
