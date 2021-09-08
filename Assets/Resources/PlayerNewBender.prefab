@@ -334,7 +334,7 @@ MonoBehaviour:
   MYSpellsList:
   - SpellName: FireBall
     SGP: 0
-    SpellPrefab: {fileID: 1039892961843372, guid: 6c7b618b4e650ca45b9d58e0f367cef5,
+    SpellPrefab: {fileID: 1039892961843372, guid: 58103a6aecb49a24c8817704acc3b41e,
       type: 3}
     ManaCoast: 15
     CoolDown: 10
@@ -380,7 +380,7 @@ MonoBehaviour:
     FollowCam: 0
   - SpellName: FireWoosh
     SGP: 0
-    SpellPrefab: {fileID: 1039892961843372, guid: 58103a6aecb49a24c8817704acc3b41e,
+    SpellPrefab: {fileID: 1039892961843372, guid: 6c7b618b4e650ca45b9d58e0f367cef5,
       type: 3}
     ManaCoast: 6
     CoolDown: 0.5
@@ -388,7 +388,16 @@ MonoBehaviour:
     SpellButton: Fire1
     SpellTriger: Hand
     AnimationID: 0
-    Compos: []
+    Compos:
+    - SPellGO1: {fileID: 0}
+      ComponAinmName: Hand
+      Done: 0
+    - SPellGO1: {fileID: 0}
+      ComponAinmName: Leg
+      Done: 0
+    - SPellGO1: {fileID: 0}
+      ComponAinmName: Finish
+      Done: 0
     AnimationNumber: 0
     Combotimer: 0
     Parent: 0
@@ -397,7 +406,7 @@ MonoBehaviour:
     CanLockOn: 1
     FollowCam: 1
   - SpellName: Flame
-    SGP: 1
+    SGP: 0
     SpellPrefab: {fileID: 4399787951951279486, guid: 7c171739a2d5d9647bdd0f2cc3b17f9d,
       type: 3}
     ManaCoast: 5

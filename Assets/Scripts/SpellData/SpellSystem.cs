@@ -82,13 +82,17 @@ public Transform GroundWallGo;
 		 		Animator anim = GetComponent<Animator>();
 
 		 				foreach (Spell s in MYSpellsList) {
-        if(s.SpellTriger == "Hand"){
-                   s.SpellGO = anim.GetBoneTransform(HumanBodyBones.RightHand);
-              }else if(s.SpellTriger == "Leg"){
-				 s.SpellGO = anim.GetBoneTransform(HumanBodyBones.RightFoot);
-			  }
-	if(s.Compos.Count > 0){
-			foreach (SPC C in s.Compos) {
+			switch (s.SGP) {
+				case SpallGOPos.Hand:
+					s.SpellGO = anim.GetBoneTransform(HumanBodyBones.RightHand);
+					break;
+				case SpallGOPos.Leg:
+					s.SpellGO = anim.GetBoneTransform(HumanBodyBones.RightFoot);
+					break;
+								}
+			if (s.Compos.Count > 0){
+			
+				foreach (SPC C in s.Compos) {
 				 if(C.ComponAinmName == "Hand"){
                    C.SPellGO1 = anim.GetBoneTransform(HumanBodyBones.RightHand);
               }else if(C.ComponAinmName == "Leg"){
