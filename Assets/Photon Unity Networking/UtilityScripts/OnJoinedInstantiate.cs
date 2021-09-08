@@ -16,8 +16,18 @@ public class OnJoinedInstantiate : MonoBehaviour
 	public Image Spell3SLider;
 
 	public GameObject HudCanves;
-    public void OnJoinedRoom()
+    public GameObject SpawndPlayer;
+    public GameObject SpawnButton;
+    public bool Conected;
+    private void Update()
     {
+        if (!SpawndPlayer && Conected) {
+            SpawnButton.SetActive(true);
+        }
+    }
+    public void SpawnPlayer() {
+        SpawnButton.SetActive(false);
+
         if (this.PrefabsToInstantiate != null)
         {
             foreach (GameObject o in this.PrefabsToInstantiate)
@@ -35,20 +45,27 @@ public class OnJoinedInstantiate : MonoBehaviour
                 random = random.normalized;
                 Vector3 itempos = spawnPos + this.PositionOffset * random;
 
-				GameObject Player   =  PhotonNetwork.Instantiate(o.name, itempos, Quaternion.identity, 0);
-            	if (SceneCame) {
-					SceneCame.gameObject.SetActive (false);
-				}
-                if(Player.GetComponent<HUD> ()){
-            	Player.GetComponent<HUD> ().ManaSlider = ManaSlider;
-				Player.GetComponent<HUD> ().HealthSlider = HealthSlider;
-				Player.GetComponent<HUD> ().Spell1SLider = Spell1SLider;
-				Player.GetComponent<HUD> ().Spell2SLider = Spell2SLider;
-				Player.GetComponent<HUD> ().Spell3SLider = Spell3SLider;
+                SpawndPlayer = PhotonNetwork.Instantiate(o.name, itempos, Quaternion.identity, 0);
+                if (SceneCame)
+                {
+                    SceneCame.gameObject.SetActive(false);
                 }
-				HudCanves.SetActive(true);
-			
+                if (SpawndPlayer.GetComponent<HUD>())
+                {
+                    SpawndPlayer.GetComponent<HUD>().ManaSlider = ManaSlider;
+                    SpawndPlayer.GetComponent<HUD>().HealthSlider = HealthSlider;
+                    SpawndPlayer.GetComponent<HUD>().Spell1SLider = Spell1SLider;
+                    SpawndPlayer.GetComponent<HUD>().Spell2SLider = Spell2SLider;
+                    SpawndPlayer.GetComponent<HUD>().Spell3SLider = Spell3SLider;
+                }
+                HudCanves.SetActive(true);
+
             }
         }
+    }
+    public void OnJoinedRoom()
+    {
+        Conected = true;
+        SpawnPlayer();
     }
 }

@@ -388,16 +388,7 @@ MonoBehaviour:
     SpellButton: Fire1
     SpellTriger: Hand
     AnimationID: 0
-    Compos:
-    - SPellGO1: {fileID: 0}
-      ComponAinmName: Hand
-      Done: 0
-    - SPellGO1: {fileID: 0}
-      ComponAinmName: Leg
-      Done: 0
-    - SPellGO1: {fileID: 0}
-      ComponAinmName: Finish
-      Done: 0
+    Compos: []
     AnimationNumber: 0
     Combotimer: 0
     Parent: 0
