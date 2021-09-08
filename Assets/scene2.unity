@@ -4771,7 +4771,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2013787754}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -22883,6 +22883,7 @@ MonoBehaviour:
   HudCanves: {fileID: 466111539}
   SpawndPlayer: {fileID: 0}
   SpawnButton: {fileID: 2013787753}
+  Conected: 0
 --- !u!114 &951388313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29362,7 +29363,7 @@ RectTransform:
   m_Children:
   - {fileID: 2080616218}
   m_Father: {fileID: 2013787754}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -38823,8 +38824,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1333444546}
   - {fileID: 295212964}
+  - {fileID: 1333444546}
   m_Father: {fileID: 466111543}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

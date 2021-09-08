@@ -133,8 +133,10 @@ private bool Hit;
    
 	[PunRPC]
     protected void Die()
-	{             
-		if(!once2 &&DeadReplacment){
+	{
+		Screen.lockCursor = false;
+
+		if (!once2 &&DeadReplacment){
 			GameObject T = Instantiate (DeadReplacment, Spawnpoint.position, transform.rotation) as GameObject;
 			once2 = true;
 			if(ScreamAC){

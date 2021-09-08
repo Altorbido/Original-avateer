@@ -22,6 +22,7 @@ public class OnJoinedInstantiate : MonoBehaviour
     private void Update()
     {
         if (!SpawndPlayer && Conected) {
+            Screen.lockCursor = false;
             SpawnButton.SetActive(true);
         }
     }
