@@ -111,7 +111,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -290,7 +290,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9558,7 +9558,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 4
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -9727,7 +9727,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 6
+      scalar: 5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -11732,11 +11732,11 @@ ParticleSystem:
     randomizePerFrame: 0
   ExternalForcesModule:
     enabled: 0
-    multiplier: 1
+    multiplier: 0
     influenceFilter: 0
     influenceMask:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 0
     influenceList: []
   ClampVelocityModule:
     enabled: 0
@@ -18859,17 +18859,17 @@ PrefabInstance:
     - target: {fileID: 6120360601038510526, guid: 3d23c7154f9636b4380ef4352e89f81e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6120360601038510526, guid: 3d23c7154f9636b4380ef4352e89f81e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 6120360601038510526, guid: 3d23c7154f9636b4380ef4352e89f81e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.061
       objectReference: {fileID: 0}
     - target: {fileID: 6120360601038510526, guid: 3d23c7154f9636b4380ef4352e89f81e,
         type: 3}
@@ -18914,7 +18914,22 @@ PrefabInstance:
     - target: {fileID: 6206273027675379892, guid: 3d23c7154f9636b4380ef4352e89f81e,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206273027675379892, guid: 3d23c7154f9636b4380ef4352e89f81e,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206273027675379892, guid: 3d23c7154f9636b4380ef4352e89f81e,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206273027675379892, guid: 3d23c7154f9636b4380ef4352e89f81e,
+        type: 3}
+      propertyPath: useRigidbodyForVelocity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d23c7154f9636b4380ef4352e89f81e, type: 3}
