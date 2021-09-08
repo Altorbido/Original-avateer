@@ -31,7 +31,8 @@ private bool Hit;
 	public AudioClip[] Hurt;
 	public AudioSource AS;
 	public CharacterAnimator PA;
-//	public Annocer A;
+	//	public Annocer A;
+	public Character C;
     void Start()
     {
 	PA = GetComponent<CharacterAnimator>();
@@ -134,8 +135,7 @@ private bool Hit;
 	[PunRPC]
     protected void Die()
 	{
-		Screen.lockCursor = false;
-
+		
 		if (!once2 &&DeadReplacment){
 			GameObject T = Instantiate (DeadReplacment, Spawnpoint.position, transform.rotation) as GameObject;
 			once2 = true;
@@ -150,12 +150,14 @@ private bool Hit;
 			}
 		}
 			if (photonView.isMine) {
-
+			Screen.lockCursor = false;
+			if (C._playerCamera)
+				Destroy(C._playerCamera.gameObject);
 			//	if (spawn) {
-				//	spawn.Die ();
-				//}
-		
-				this.photonView.RPC ("DestroyRpc", PhotonTargets.AllBuffered);
+			//	spawn.Die ();
+			//}
+
+			this.photonView.RPC ("DestroyRpc", PhotonTargets.AllBuffered);
 
 				// This is my actual PLAYER object, then initiate the respawn process
 				Destroy (obj.GetComponentInChildren<PlayerAnim> ());

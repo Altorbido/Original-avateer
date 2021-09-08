@@ -77,7 +77,7 @@ public class Points : Photon.MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
 
            // PhotonNetwork.Instantiate(Effect, Point, Quaternion.identity);
-            PhotonNetwork.Instantiate(Effect.name, Point, transform.rotation, 0);
+            PhotonNetwork.Instantiate(Effect.name, Point, Quaternion.identity, 0);
 
         }
     }

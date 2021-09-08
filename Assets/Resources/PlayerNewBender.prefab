@@ -213,6 +213,7 @@ MonoBehaviour:
     MinRotationSpeed: 600
     MaxRotationSpeed: 1200
   ControlRotationSensitivity: 3
+  _playerCamera: {fileID: 0}
   CamObject: {fileID: 7873949614413965699, guid: ef9e01b90b78cb9418663ac0a5c4731c,
     type: 3}
   CamTarget: {fileID: 6065673602641434873}
@@ -518,6 +519,7 @@ MonoBehaviour:
   Hurt: []
   AS: {fileID: 0}
   PA: {fileID: 0}
+  C: {fileID: 6001059516237741063}
 --- !u!114 &2984792035117507557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,7 +540,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 7987
   MyCollider: {fileID: 4292132660743888553}
-  Offset: {x: 0, y: 1, z: 0}
+  Offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &7320305960418502477
 PrefabInstance:
   m_ObjectHideFlags: 0

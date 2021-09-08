@@ -76,13 +76,12 @@ using UnityEngine;
 		public Vector3 VerticalVelocity => _characterController.velocity.Multiply(0.0f, 1.0f, 0.0f);
 		public bool IsGrounded { get; private set; }
 
-
 	[Header("Controller")]
 
 public float ControlRotationSensitivity = 3.0f;
 
 		private PlayerInput _playerInput;
-		private PlayerCamera _playerCamera { get;  set; }
+	public PlayerCamera _playerCamera;
 public GameObject CamObject;
 public Transform CamTarget;
 		private void Awake()
