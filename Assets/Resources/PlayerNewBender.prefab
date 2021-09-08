@@ -398,7 +398,7 @@ MonoBehaviour:
     FollowCam: 1
   - SpellName: Flame
     SGP: 0
-    SpellPrefab: {fileID: 1039892961843372, guid: 6c7b618b4e650ca45b9d58e0f367cef5,
+    SpellPrefab: {fileID: 2944213602652478273, guid: 8140af95685132549947a1694b07d10f,
       type: 3}
     ManaCoast: 5
     CoolDown: 0.5
