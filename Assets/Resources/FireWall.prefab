@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bluePositions: []
   Effect: {fileID: 7783366466978694426, guid: cf9d7e4fef937a34e9bb03e1addfda34, type: 3}
-  spawnRate: 0.1
+  spawnRate: 0.05
   Space: 20
   Mask:
     serializedVersion: 2

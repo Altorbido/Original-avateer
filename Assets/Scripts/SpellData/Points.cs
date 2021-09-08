@@ -14,7 +14,8 @@ public class Points : Photon.MonoBehaviour
     {
         if (!photonView.isMine)
             return;
-        transform.rotation = Rotation;
+
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
 
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
         Debug.DrawRay(transform.position, fwd, Color.green);
