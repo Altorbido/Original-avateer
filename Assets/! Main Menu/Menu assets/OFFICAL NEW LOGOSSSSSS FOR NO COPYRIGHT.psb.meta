@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 3c97c300a91388947858d3aa115d6295
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO
+    100002: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/AIR 2
+    100004: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/ARENA LEGENDS
+    100006: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Arrow head
+    100008: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Arrow head_1
+    100010: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/avatar eye left
+    100012: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/avatar eye right
+    100014: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Avatar right
+    100016: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Avatar right_1
+    100018: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Click on login pic copy
+    100020: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Earth 2
+    100022: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/FIRE 2
+    100024: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/HIgh ScoRes
+    100026: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/How to PlAy
+    100028: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 0
+    100030: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 2
+    100032: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 3
+    100034: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 22 copy
+    100036: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Login Button
+    100038: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Login button hover
+    100040: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/OPTions
+    100042: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/quit
+    100044: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/SEARCH
+    100046: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/water 2
+    100048: "OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/\u7ADE\u6280\u573A\u4F20\u5947"
+    400000: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Transform
+    400002: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/AIR 2/Transform
+    400004: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/ARENA LEGENDS/Transform
+    400006: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Arrow head/Transform
+    400008: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Arrow head_1/Transform
+    400010: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/avatar eye left/Transform
+    400012: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/avatar eye right/Transform
+    400014: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Avatar right/Transform
+    400016: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Avatar right_1/Transform
+    400018: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Click on login pic copy/Transform
+    400020: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Earth 2/Transform
+    400022: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/FIRE 2/Transform
+    400024: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/HIgh ScoRes/Transform
+    400026: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/How to PlAy/Transform
+    400028: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 0/Transform
+    400030: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 2/Transform
+    400032: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 3/Transform
+    400034: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 22 copy/Transform
+    400036: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Login Button/Transform
+    400038: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Login button hover/Transform
+    400040: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/OPTions/Transform
+    400042: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/quit/Transform
+    400044: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/SEARCH/Transform
+    400046: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/water 2/Transform
+    400048: "OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/\u7ADE\u6280\u573A\u4F20\u5947/Transform"
+    2800000: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT
+    21200000: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/AIR 2/SpriteRenderer
+    21200002: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/ARENA LEGENDS/SpriteRenderer
+    21200004: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Arrow head/SpriteRenderer
+    21200006: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Arrow head_1/SpriteRenderer
+    21200008: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/avatar eye left/SpriteRenderer
+    21200010: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/avatar eye right/SpriteRenderer
+    21200012: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Avatar right/SpriteRenderer
+    21200014: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Avatar right_1/SpriteRenderer
+    21200016: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Click on login pic copy/SpriteRenderer
+    21200018: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Earth 2/SpriteRenderer
+    21200020: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/FIRE 2/SpriteRenderer
+    21200022: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/HIgh ScoRes/SpriteRenderer
+    21200024: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/How to PlAy/SpriteRenderer
+    21200026: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 0/SpriteRenderer
+    21200028: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 2/SpriteRenderer
+    21200030: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 3/SpriteRenderer
+    21200032: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Layer 22 copy/SpriteRenderer
+    21200034: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Login Button/SpriteRenderer
+    21200036: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/Login button hover/SpriteRenderer
+    21200038: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/OPTions/SpriteRenderer
+    21200040: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/quit/SpriteRenderer
+    21200042: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/SEARCH/SpriteRenderer
+    21200044: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/water 2/SpriteRenderer
+    21200046: "OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO/OFFICAL NEW LOGOSSSSSS FOR
+      NO COPYRIGHT_GO/\u7ADE\u6280\u573A\u4F20\u5947/SpriteRenderer"
+    21300000: 3e1027750fb308f48ad72e95f1bcd5a7
+    21300002: 6606723020e770a48954177fa99ef391
+    21300004: 9c3629a29fd31944db4b37c59300c2ce
+    21300006: d05cd7ae68f5a9e44ad1516e085b2496
+    21300008: d2d356a671a5e9548990c608e5d7fdfe
+    21300010: 92d444bc226c84e4daee3657f645dc5e
+    21300012: cce31f544ba9ab04491bebe65c709d6d
+    21300014: 7af20403a591e37498ccb0aad87156b1
+    21300016: 817910fc12afb484383a2c40cba47522
+    21300018: 53689a50751951647961214c4312e14d
+    21300020: 98fc78baf481ea94c862514ecff50a88
+    21300022: d177f15976bee84439e591b826b4249d
+    21300024: 127b35443b8c94546baea0e4b6a32dc3
+    21300026: 64cf007bd72987e42a465ef028e8181d
+    21300028: a5a8ca083bd4da640a4112bde261e2eb
+    21300030: af268c4de7b273b45b4ce3fe4f961744
+    21300032: 42613e56301e49b46a965bb1176f8790
+    21300034: 8f6a4790c4bbac549947a76339b0a0a3
+    21300036: f7623b431f649844fafe65410ed9a5e6
+    21300038: 4e172ffc9cf472d46ba6f5ecdc115d97
+    21300040: 07ac215754f94c84aab10cced375e696
+    21300042: 1f726a74ccff4744c950795c98ec97a6
+    21300044: 85eaeace44be84c449f6a9f1a0af11c1
+    21300046: c4a967af6178238418612127ccd1c9f3
+    100100000: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: ARENA LEGENDS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 716
+      y: 1910
+      width: 613
+      height: 59
+    spriteID: 3e1027750fb308f48ad72e95f1bcd5a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 57, y: 1109}
+  - name: "\u7ADE\u6280\u573A\u4F20\u5947"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 716
+      y: 1977
+      width: 351
+      height: 53
+    spriteID: 6606723020e770a48954177fa99ef391
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -80, y: 1091}
+  - name: Layer 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1375
+      y: 1910
+      width: 0
+      height: 0
+    spriteID: 9c3629a29fd31944db4b37c59300c2ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -545, y: 830}
+  - name: quit
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1641
+      y: 1122
+      width: 96
+      height: 35
+    spriteID: d05cd7ae68f5a9e44ad1516e085b2496
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 717, y: 981}
+  - name: SEARCH
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 558
+      y: 1991
+      width: 145
+      height: 31
+    spriteID: d2d356a671a5e9548990c608e5d7fdfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -340, y: 1748}
+  - name: HIgh ScoRes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1991
+      width: 252
+      height: 33
+    spriteID: 92d444bc226c84e4daee3657f645dc5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -841, y: 1653}
+  - name: OPTions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 1922
+      width: 164
+      height: 30
+    spriteID: cce31f544ba9ab04491bebe65c709d6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -349, y: 1483}
+  - name: How to PlAy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 1991
+      width: 278
+      height: 33
+    spriteID: 7af20403a591e37498ccb0aad87156b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -560, y: 1460}
+  - name: Layer 22 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1391
+      y: 2009
+      width: 240
+      height: 23
+    spriteID: 817910fc12afb484383a2c40cba47522
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 546, y: 1357}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1641
+      y: 1092
+      width: 237
+      height: 22
+    spriteID: 53689a50751951647961214c4312e14d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 782, y: 470}
+  - name: Click on login pic copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1075
+      y: 1977
+      width: 260
+      height: 61
+    spriteID: 98fc78baf481ea94c862514ecff50a88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 232, y: 1359}
+  - name: Login button hover
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1922
+      width: 260
+      height: 61
+    spriteID: d177f15976bee84439e591b826b4249d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -839, y: 1304}
+  - name: Login Button
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 1922
+      width: 260
+      height: 61
+    spriteID: 127b35443b8c94546baea0e4b6a32dc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -571, y: 1304}
+  - name: avatar eye left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1337
+      y: 1938
+      width: 27
+      height: 20
+    spriteID: 64cf007bd72987e42a465ef028e8181d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -125, y: 1156}
+  - name: avatar eye right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1337
+      y: 1910
+      width: 30
+      height: 20
+    spriteID: a5a8ca083bd4da640a4112bde261e2eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -163, y: 1128}
+  - name: Arrow head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1343
+      y: 1977
+      width: 23
+      height: 21
+    spriteID: af268c4de7b273b45b4ce3fe4f961744
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -142, y: 1137}
+  - name: Arrow head_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1641
+      y: 1165
+      width: 48
+      height: 58
+    spriteID: 42613e56301e49b46a965bb1176f8790
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 170, y: 368}
+  - name: Avatar right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 704
+      height: 822
+    spriteID: 8f6a4790c4bbac549947a76339b0a0a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1131, y: 993}
+  - name: Avatar right_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 716
+      y: 1092
+      width: 667
+      height: 810
+    spriteID: f7623b431f649844fafe65410ed9a5e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -456, y: 993}
+  - name: AIR 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1391
+      y: 1796
+      width: 196
+      height: 205
+    spriteID: 4e172ffc9cf472d46ba6f5ecdc115d97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 950, y: 1757}
+  - name: FIRE 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1391
+      y: 1316
+      width: 192
+      height: 244
+    spriteID: 07ac215754f94c84aab10cced375e696
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1032, y: 1042}
+  - name: Earth 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1391
+      y: 1568
+      width: 203
+      height: 220
+    spriteID: 1f726a74ccff4744c950795c98ec97a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1094, y: 1020}
+  - name: water 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1391
+      y: 1092
+      width: 242
+      height: 216
+    spriteID: 85eaeace44be84c449f6a9f1a0af11c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1045, y: 284}
+  - name: Layer 0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: c4a967af6178238418612127ccd1c9f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: ARENA LEGENDS
+    spriteName: ARENA LEGENDS
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e1027750fb308f48ad72e95f1bcd5a7
+    layerID: 144
+    mosaicPosition: {x: 716, y: 1910}
+  - name: "\u7ADE\u6280\u573A\u4F20\u5947"
+    spriteName: "\u7ADE\u6280\u573A\u4F20\u5947"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6606723020e770a48954177fa99ef391
+    layerID: 126
+    mosaicPosition: {x: 716, y: 1977}
+  - name: Layer 3
+    spriteName: Layer 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9c3629a29fd31944db4b37c59300c2ce
+    layerID: 142
+    mosaicPosition: {x: 1375, y: 1910}
+  - name: quit
+    spriteName: quit
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d05cd7ae68f5a9e44ad1516e085b2496
+    layerID: 141
+    mosaicPosition: {x: 1641, y: 1122}
+  - name: SEARCH
+    spriteName: SEARCH
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d2d356a671a5e9548990c608e5d7fdfe
+    layerID: 140
+    mosaicPosition: {x: 558, y: 1991}
+  - name: HIgh ScoRes
+    spriteName: HIgh ScoRes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 92d444bc226c84e4daee3657f645dc5e
+    layerID: 139
+    mosaicPosition: {x: 4, y: 1991}
+  - name: OPTions
+    spriteName: OPTions
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cce31f544ba9ab04491bebe65c709d6d
+    layerID: 138
+    mosaicPosition: {x: 540, y: 1922}
+  - name: How to PlAy
+    spriteName: How to PlAy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7af20403a591e37498ccb0aad87156b1
+    layerID: 137
+    mosaicPosition: {x: 272, y: 1991}
+  - name: Login button pressed
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+  - name: Layer 22 copy
+    spriteName: Layer 22 copy
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 817910fc12afb484383a2c40cba47522
+    layerID: 135
+    mosaicPosition: {x: 1391, y: 2009}
+  - name: Layer 2
+    spriteName: Layer 2
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 53689a50751951647961214c4312e14d
+    layerID: 134
+    mosaicPosition: {x: 1641, y: 1092}
+  - name: Click on login pic copy
+    spriteName: Click on login pic copy
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 98fc78baf481ea94c862514ecff50a88
+    layerID: 133
+    mosaicPosition: {x: 1075, y: 1977}
+  - name: Login button hover
+    spriteName: Login button hover
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d177f15976bee84439e591b826b4249d
+    layerID: 131
+    mosaicPosition: {x: 4, y: 1922}
+  - name: Login Button
+    spriteName: Login Button
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 127b35443b8c94546baea0e4b6a32dc3
+    layerID: 130
+    mosaicPosition: {x: 272, y: 1922}
+  - name: Avatar on the right
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+  - name: avatar eye left
+    spriteName: avatar eye left
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 64cf007bd72987e42a465ef028e8181d
+    layerID: 123
+    mosaicPosition: {x: 1337, y: 1938}
+  - name: avatar eye right
+    spriteName: avatar eye right
+    isGroup: 0
+    parentIndex: 14
+    spriteID: a5a8ca083bd4da640a4112bde261e2eb
+    layerID: 122
+    mosaicPosition: {x: 1337, y: 1910}
+  - name: Arrow head
+    spriteName: Arrow head
+    isGroup: 0
+    parentIndex: 14
+    spriteID: af268c4de7b273b45b4ce3fe4f961744
+    layerID: 121
+    mosaicPosition: {x: 1343, y: 1977}
+  - name: Arrow head
+    spriteName: Arrow head_1
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 42613e56301e49b46a965bb1176f8790
+    layerID: 120
+    mosaicPosition: {x: 1641, y: 1165}
+  - name: Avatar right
+    spriteName: Avatar right
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 8f6a4790c4bbac549947a76339b0a0a3
+    layerID: 119
+    mosaicPosition: {x: 4, y: 1092}
+  - name: Avatar right
+    spriteName: Avatar right_1
+    isGroup: 0
+    parentIndex: 14
+    spriteID: f7623b431f649844fafe65410ed9a5e6
+    layerID: 118
+    mosaicPosition: {x: 716, y: 1092}
+  - name: Elements
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 116
+    mosaicPosition: {x: 0, y: 0}
+  - name: AIR 2
+    spriteName: AIR 2
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 4e172ffc9cf472d46ba6f5ecdc115d97
+    layerID: 182
+    mosaicPosition: {x: 1391, y: 1796}
+  - name: FIRE 2
+    spriteName: FIRE 2
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 07ac215754f94c84aab10cced375e696
+    layerID: 181
+    mosaicPosition: {x: 1391, y: 1316}
+  - name: Earth 2
+    spriteName: Earth 2
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 1f726a74ccff4744c950795c98ec97a6
+    layerID: 194
+    mosaicPosition: {x: 1391, y: 1568}
+  - name: water 2
+    spriteName: water 2
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 85eaeace44be84c449f6a9f1a0af11c1
+    layerID: 175
+    mosaicPosition: {x: 1391, y: 1092}
+  - name: Layer 0
+    spriteName: Layer 0
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c4a967af6178238418612127ccd1c9f3
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT
+  prefabAssetName: OFFICAL NEW LOGOSSSSSS FOR NO COPYRIGHT_GO
