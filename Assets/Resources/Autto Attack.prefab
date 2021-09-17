@@ -63,7 +63,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   CollidesWith:
     serializedVersion: 2
-    m_Bits: 40759
+    m_Bits: 40755
   EffectsOnCollision:
   - {fileID: 1148325190646528, guid: 9984e606f8e60e149b1d4d55c0235548, type: 3}
   CollisionOffset: 0.05
