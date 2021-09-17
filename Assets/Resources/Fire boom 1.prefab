@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7981305643045664536}
   - component: {fileID: 114083496357791280}
   - component: {fileID: 114841799128587292}
+  - component: {fileID: 114577854317554628}
   m_Layer: 0
   m_Name: Fire boom 1
   m_TagString: Untagged
@@ -4745,6 +4746,27 @@ MonoBehaviour:
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
+--- !u!114 &114577854317554628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7783366466978694426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1779047ffcd64d747b4e9b60adaabba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Radius: 0.5
+  Damdge: 0.5
+  Owner: {fileID: 0}
+  Mask:
+    serializedVersion: 2
+    m_Bits: 57139
+  loop: 1
+  LoopTime: 0.3
+  timer: 0
 --- !u!1 &7784033492378604578
 GameObject:
   m_ObjectHideFlags: 0

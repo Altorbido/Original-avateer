@@ -10,6 +10,7 @@ public class Points : Photon.MonoBehaviour
     public float Space;
     public LayerMask Mask;
     public Quaternion Rotation;
+    public float offset;
     private void Start()
     {
         if (!photonView.isMine)
@@ -27,6 +28,13 @@ public class Points : Photon.MonoBehaviour
             {
                 Test(transform.position, objectHit.point);
             }
+        }
+        else {
+           
+
+            Test(transform.position, transform.TransformDirection(transform.forward * offset));
+            Debug.Log(transform.TransformDirection(transform.forward * offset));
+
         }
         StartCoroutine(SpawnRate());
 
@@ -77,8 +85,10 @@ public class Points : Photon.MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
 
            // PhotonNetwork.Instantiate(Effect, Point, Quaternion.identity);
-            PhotonNetwork.Instantiate(Effect.name, Point, transform.rotation, 0);
-
+          
+            GameObject Eff = PhotonNetwork.Instantiate(Effect.name, Point, transform.rotation, 0) as GameObject;
+            Eff.transform.SetParent(this.transform);
+            Eff.GetComponent<FireReng>().Owner = this.transform;
         }
     }
 

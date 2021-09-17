@@ -837,7 +837,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 136
     mosaicPosition: {x: 0, y: 0}
   - name: Layer 22 copy
@@ -879,7 +879,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 124
     mosaicPosition: {x: 0, y: 0}
   - name: avatar eye left
@@ -928,7 +928,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 116
     mosaicPosition: {x: 0, y: 0}
   - name: AIR 2

@@ -99,8 +99,9 @@ MonoBehaviour:
   Space: 20
   Mask:
     serializedVersion: 2
-    m_Bits: 57143
+    m_Bits: 57139
   Rotation: {x: 0, y: 0, z: 0, w: 0}
+  offset: 500
 --- !u!114 &114259389290466794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6477ed01cd5eb445bf961f43865cc31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TimeOut: 30
+  m_TimeOut: 12
   m_DetachChildren: 0
 --- !u!1001 &6228257629458452884
 PrefabInstance:
@@ -204,10 +205,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4517814959133744844, guid: 6b4d6c772db03ba448a2f261c4ccaf66,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9826
+      objectReference: {fileID: 0}
     - target: {fileID: 4519581827628153366, guid: 6b4d6c772db03ba448a2f261c4ccaf66,
         type: 3}
       propertyPath: m_Name
       value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582612756299543054, guid: 6b4d6c772db03ba448a2f261c4ccaf66,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.208
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b4d6c772db03ba448a2f261c4ccaf66, type: 3}
