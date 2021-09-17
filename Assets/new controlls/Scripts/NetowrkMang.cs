@@ -72,8 +72,15 @@ void Start(){
 		
 		if (Object == null) return;
 		foreach (Transform trans in Object.GetComponentsInChildren<Transform>(true)) {
-				trans.gameObject.layer = layerNumber;
+			if (trans.name == "Capsule")
+			{
+				trans.gameObject.layer = 2;
+			}
 
+			else
+			{
+				trans.gameObject.layer = layerNumber;
+			}
 		}
 	}
 }

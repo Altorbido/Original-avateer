@@ -21,7 +21,7 @@ TagManager:
   - Tezk7amra
   - LocalPlayer
   - PostProccing
-  - 
+  - SceneObject
   - 
   - 
   - 
@@ -41,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: "\u2019Main"
+    uniqueID: 4033083955
     locked: 0

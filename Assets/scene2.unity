@@ -19408,7 +19408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06466c03d263624786afa88b52928b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsWindowOn: 1
+  statsWindowOn: 0
   statsOn: 1
   healthStatsVisible: 1
   trafficStatsOn: 0
@@ -32696,7 +32696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.199951, y: 0}
+  m_AnchoredPosition: {x: -4.1992188, y: 0}
   m_SizeDelta: {x: -531.16925, y: -548.3655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013787755

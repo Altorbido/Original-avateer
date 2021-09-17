@@ -50,7 +50,7 @@ MonoBehaviour:
   explosionTimeout: 2
   Mask:
     serializedVersion: 2
-    m_Bits: 7991
+    m_Bits: 7987
 --- !u!114 &114567539856136064
 MonoBehaviour:
   m_ObjectHideFlags: 0
