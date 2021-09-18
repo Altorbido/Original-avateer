@@ -159,8 +159,9 @@ private bool Hit;
 
 			this.photonView.RPC ("DestroyRpc", PhotonTargets.AllBuffered);
 
-				// This is my actual PLAYER object, then initiate the respawn process
-				Destroy (obj.GetComponentInChildren<PlayerAnim> ());
+			// This is my actual PLAYER object, then initiate the respawn process
+			obj = this.gameObject;
+			//Destroy (obj.GetComponentInChildren<PlayerAnim> ());
        
       
 				// Destroy(wep, 10);

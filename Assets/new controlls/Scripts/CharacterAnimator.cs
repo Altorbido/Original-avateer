@@ -13,6 +13,7 @@ using System.Collections.Generic;
 	{
 		public Animator _animator;
          public NetowrkMang NM;
+	public bool hitcoolDown;
 		private void Awake()
 		{
 			_animator = GetComponent<Animator>();
@@ -34,7 +35,16 @@ using System.Collections.Generic;
 			_animator.SetBool(CharacterAnimatorParamId.IsGrounded, NM.IsGrounded);
 		}
 		public void GetHit (){
+		if (!hitcoolDown)
+		{
 			_animator.SetTrigger("Hit");
+			hitcoolDown = true;
+			StartCoroutine(HitCD());
 		}
+		}
+	IEnumerator HitCD() {
+		yield return new WaitForSeconds(0.15f);
+		hitcoolDown = false;
+	}
 	}
 

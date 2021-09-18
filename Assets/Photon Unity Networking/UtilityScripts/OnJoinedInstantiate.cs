@@ -23,6 +23,10 @@ public class OnJoinedInstantiate : MonoBehaviour
     {
         if (!SpawndPlayer && Conected) {
             Screen.lockCursor = false;
+            if (SceneCame)
+            {
+                SceneCame.gameObject.SetActive(true);
+            }
             SpawnButton.SetActive(true);
         }
     }

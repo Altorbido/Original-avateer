@@ -84,6 +84,7 @@ public float ControlRotationSensitivity = 3.0f;
 	public PlayerCamera _playerCamera;
 public GameObject CamObject;
 public Transform CamTarget;
+	public bool DontMove;
 		private void Awake()
 		{
 			//Controller.
@@ -97,9 +98,13 @@ public Transform CamTarget;
 		private void Update()
 		{
 			OnCharacterUpdate();
-		}
+		Animator anim_Animator = GetComponent<Animator>();
+		DontMove = anim_Animator.GetCurrentAnimatorStateInfo(0).IsName("15_Frank_Hit_Air");
+	
 
-		private void FixedUpdate()
+	}
+
+	private void FixedUpdate()
 		{
 			UpdateState();
 			OnCharacterFixedUpdate();
@@ -111,7 +116,9 @@ public Transform CamTarget;
 			UpdateVerticalSpeed();
 
 			Vector3 movement = _horizontalSpeed * GetMovementDirection() + _verticalSpeed * Vector3.up;
-			if(!IsGrounded  && _horizontalSpeed > 0){
+		if (DontMove)
+			movement = Vector3.zero;
+			if (!IsGrounded  && _horizontalSpeed > 0){
 				MovementSettings.MaxHorizontalSpeed = MovementSettings.JumpforwardPower;
 			}else if(IsGrounded  ){
                   MovementSettings.MaxHorizontalSpeed = MovementSettings.MaxHorizontal;

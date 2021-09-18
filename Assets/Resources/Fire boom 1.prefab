@@ -4759,11 +4759,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 0.5
-  Damdge: 0.5
+  Damdge: 5
   Owner: {fileID: 0}
   Mask:
     serializedVersion: 2
-    m_Bits: 57139
+    m_Bits: 14337
   loop: 1
   LoopTime: 0.3
   timer: 0

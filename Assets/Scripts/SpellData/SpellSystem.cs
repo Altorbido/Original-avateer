@@ -115,17 +115,18 @@ if(!Cam){
 	// Update is called once per frame
 	void Update () {
 		if (photonView.isMine) {
+			Animator anim_Animator = GetComponent<Animator>();
+			bool DontMove = (anim_Animator.GetCurrentAnimatorStateInfo(0).IsName("15_Frank_Hit_Air") || anim_Animator.GetCurrentAnimatorStateInfo(0).IsName("16_Frank_Hit_Bound"));
+			
 			CheckAngel();
 			if(Aim){
 				if(CIA){
 CamerTarget.localPosition = Vector3.Lerp (CamerTarget.localPosition, AimPos, Time.deltaTime * 10f);
 			}else{
-				CamerTarget.localPosition = Vector3.Lerp (CamerTarget.localPosition, NormailPos, Time.deltaTime * 10f);
+	CamerTarget.localPosition = Vector3.Lerp (CamerTarget.localPosition, NormailPos, Time.deltaTime * 10f);
 			}
 			}else{
 CamerTarget.localPosition = Vector3.Lerp (CamerTarget.localPosition, NormailPos, Time.deltaTime * 10f);
-
-
 			}
 			if(!Cam){
 				Cam= Camera.main;
@@ -134,7 +135,7 @@ CamerTarget.localPosition = Vector3.Lerp (CamerTarget.localPosition, NormailPos,
 			if(FA && FA.m_ClipName != "Jap"  && SpellPlaying){
 				SpellPlaying =false;
 			}
-
+			if (DontMove){return;}  //Stop every thing if we are being hitt
 			foreach (Spell S in MYSpellsList) {
 				if(CIA){
 if(S.CanLockOn && Aim == S.NeedAim){
@@ -171,12 +172,9 @@ if(S.CanLockOn && Aim == S.NeedAim){
 				}
         }
 					Aim = Input.GetButtonDown("Fire2");
-
 					Aim = Input.GetButton ("Fire2");
-
 			timer = Mathf.Clamp(timer, 0, ManaRateMax);
 				timer2 = Mathf.Clamp(timer2, 0, 10);
-
 				if (timer > 0) timer -= Time.deltaTime;
 				if (timer2 > 0) timer2 -= Time.deltaTime;
 				if(timer == 0 && timer2 == 0 && Mana < 100){
