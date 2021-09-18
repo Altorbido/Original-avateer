@@ -8,6 +8,7 @@ public class btnFX : MonoBehaviour
 	public AudioClip hoverFx;
 	public AudioClip clickFx;
 	public AudioClip BackSound;
+	public AudioClip DropSound;
 	public void HoverSound()
 	{
 		myFx.PlayOneShot (hoverFx);
@@ -19,4 +20,8 @@ public class btnFX : MonoBehaviour
 	public void backSound (){
 		myFx.PlayOneShot (BackSound);	
 	}
+	public void dropSound (){
+		myFx.PlayOneShot (DropSound);
+	}
+
 }

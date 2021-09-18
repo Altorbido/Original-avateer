@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: abe8bbca5099cdf459b398c87395126d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Herculanum
+  fontNames:
+  - Herculanum
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 95fe849afaaafbd4baea9e98ed6ece5c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
