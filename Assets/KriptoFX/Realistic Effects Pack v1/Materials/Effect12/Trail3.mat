@@ -4,11 +4,13 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Trail3
   m_Shader: {fileID: 4800000, guid: 1028e4568d22f814c8551a2bf5b5c77a, type: 3}
-  m_ShaderKeywords: BlendAdd Clip_OFF FrameBlend_ON SoftParticles_OFF VertLight_OFF
+  m_ShaderKeywords: BlendAdd Clip_OFF ETC1_EXTERNAL_ALPHA FrameBlend_ON SoftParticles_OFF
+    VertLight_OFF
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

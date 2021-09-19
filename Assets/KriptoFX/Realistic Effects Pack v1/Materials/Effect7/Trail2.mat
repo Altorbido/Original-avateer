@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Trail2
   m_Shader: {fileID: 4800000, guid: 4775e5a8f344d6348adf934e722da85d, type: 3}
-  m_ShaderKeywords: BlendAlpha Clip_ON FrameBlend_OFF FresnelFade_OFF SoftParticles_ON
-    VertLight_OFF
+  m_ShaderKeywords: BlendAlpha Clip_ON ETC1_EXTERNAL_ALPHA FrameBlend_OFF FresnelFade_OFF
+    SoftParticles_ON VertLight_OFF
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
