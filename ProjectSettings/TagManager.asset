@@ -22,7 +22,7 @@ TagManager:
   - LocalPlayer
   - PostProccing
   - SceneObject
-  - 
+  - NoPostProcessingCamera
   - 
   - 
   - 

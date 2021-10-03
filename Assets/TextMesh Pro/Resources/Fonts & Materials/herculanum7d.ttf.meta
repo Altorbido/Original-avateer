@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 7eedda390452a4345b89eedc1340c92f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Herculanum
+  fontNames:
+  - Herculanum
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d79e0a33252975149affdadc513ee477, type: 3}
+  - {fileID: 12800000, guid: a98f2cb794c6e2e498078f4247530069, type: 3}
+  - {fileID: 12800000, guid: 6869310a68743b7458e082660bdbd273, type: 3}
+  - {fileID: 12800000, guid: 95fe849afaaafbd4baea9e98ed6ece5c, type: 3}
+  - {fileID: 12800000, guid: abe8bbca5099cdf459b398c87395126d, type: 3}
+  - {fileID: 12800000, guid: 6e1c942cbfbd95b49adf60fd1652ff2e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
