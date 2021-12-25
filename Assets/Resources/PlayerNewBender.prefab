@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1275548796326509567}
   m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Player
+  m_Name: Target
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2994890917178816681}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.053, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3558715980401828258}
@@ -86,7 +86,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7333399032721778175}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.081, y: 0.92, z: 0}
+  m_LocalPosition: {x: -0.022, y: 0.803, z: 0}
   m_LocalScale: {x: 0.7692308, y: 0.7692308, z: 0.7692308}
   m_Children: []
   m_Father: {fileID: 3558715980401828258}
@@ -217,6 +217,7 @@ MonoBehaviour:
   CamObject: {fileID: 7873949614413965699, guid: ef9e01b90b78cb9418663ac0a5c4731c,
     type: 3}
   CamTarget: {fileID: 6065673602641434873}
+  DontMove: 0
 --- !u!114 &4249735983509403638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 2200605805526862545}
   NM: {fileID: 2952877809011363205}
+  hitcoolDown: 0
 --- !u!95 &2200605805526862545
 Animator:
   serializedVersion: 3
@@ -358,7 +360,7 @@ MonoBehaviour:
     Parent: 0
     NeedAim: 1
     SpellGO: {fileID: 0}
-    CanLockOn: 0
+    CanLockOn: 1
     FollowCam: 1
   - SpellName: FireKick
     SGP: 1
@@ -532,13 +534,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44343a03ec9d6c2469e93721e344adec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedOn: 0
+  lockedOn: 1
   target: {fileID: 0}
   image: {fileID: 0}
   cam: {fileID: 0}
   mask:
     serializedVersion: 2
-    m_Bits: 7987
+    m_Bits: 6963
   MyCollider: {fileID: 4292132660743888553}
   Offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &7320305960418502477

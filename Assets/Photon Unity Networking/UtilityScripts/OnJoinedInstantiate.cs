@@ -27,11 +27,12 @@ public class OnJoinedInstantiate : MonoBehaviour
             {
                 SceneCame.gameObject.SetActive(true);
             }
-            SpawnButton.SetActive(true);
+            if (SpawnButton) SpawnButton.SetActive(true);
         }
     }
     public void SpawnPlayer() {
-        SpawnButton.SetActive(false);
+       
+        if(SpawnButton)SpawnButton.SetActive(false);
 
         if (this.PrefabsToInstantiate != null)
         {
@@ -63,7 +64,7 @@ public class OnJoinedInstantiate : MonoBehaviour
                     SpawndPlayer.GetComponent<HUD>().Spell2SLider = Spell2SLider;
                     SpawndPlayer.GetComponent<HUD>().Spell3SLider = Spell3SLider;
                 }
-                HudCanves.SetActive(true);
+               if(HudCanves)HudCanves.SetActive(true);
 
             }
         }

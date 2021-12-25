@@ -54,9 +54,24 @@ image = GameObject.FindGameObjectWithTag("Target").GetComponent<Image>();
  }else{
      target = FindTarget();
  }
-        } 
-    }
+        }
+
+
+            if (target)
+            {
+                image.color = Color.red;
             }
+            else
+            {
+                image.color = Color.white;
+
+            }
+            if (lockedOn)
+            {
+                CheckTarget();
+            }
+        }
+    }
     public void LockOn(bool Lock){
 
            if ( !lockedOn && Lock)
@@ -72,12 +87,32 @@ image = GameObject.FindGameObjectWithTag("Target").GetComponent<Image>();
         {
             lockedOn = false;
             image.enabled = false;
-        } 
+        }
+    
+    }
+    public void CheckTarget()
+    {
+        Debug.Log("Check target");
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward,Color.red);
+        RaycastHit hit;
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 500, mask))
+        {
+            Debug.Log("check aim : " + hit.transform.name);
+            if (hit.transform.CompareTag("Player"))
+            {
+                startTargeting(hit.transform);
+            }
+
+        }
+    }
+    void startTargeting(Transform NewTarget) {
+        target = null;
+        target = NewTarget;
     }
 public Transform FindTarget (){
 
   //First Create A Vector3 With Dimensions Based On The Camera's Viewport
-     GameObject[] targets = GameObject.FindGameObjectsWithTag("Player");
+     GameObject[] targets = GameObject.FindGameObjectsWithTag("Auto Target");
         Vector3 here = transform.position; 
 
 

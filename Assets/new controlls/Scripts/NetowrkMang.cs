@@ -66,6 +66,7 @@ void Start(){
         }else{
           isMine = true;
         }
+	
     }
     public static void SetLayerRecursivelyMine(GameObject Object, int layerNumber) {
 	//	bool WaveMode = (bool)PhotonNetwork.room.CustomProperties["WaveMode"];

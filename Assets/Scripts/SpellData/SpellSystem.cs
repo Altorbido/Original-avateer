@@ -144,10 +144,10 @@ if(S.CanLockOn && Aim == S.NeedAim){
 	}
 	if (SA && Input.GetButtonUp (S.SpellButton) && S.timer == 0 && !SpellPlaying) {
 			SA.photonView.RPC ("AttackAnim", PhotonTargets.AllBuffered, S.SpellTriger, S.SpellName,Aim,S.AnimationID,0f);					
-			Locking.LockOn(false);
+			//Locking.LockOn(false);
 	}
 	if(Input.GetButtonUp (S.SpellButton)&& Locking.lockedOn){
-					Locking.LockOn(false);
+				//	Locking.LockOn(false);
 	}
 }else{
 				if (SA && Input.GetButtonDown (S.SpellButton) && S.timer == 0 && !SpellPlaying ) {
@@ -320,6 +320,14 @@ if(S.CanLockOn && Aim == S.NeedAim){
 		if(Aim  ){
 				//position = new Rect((Screen.width - CrossHair.width) / 2, (Screen.height -  CrossHair.height) /2, CrossHair.width, CrossHair.height);
 			Rect position = new Rect((Screen.width - reticuleSize) * 0.5f, (Screen.height - reticuleSize) * 0.5f, reticuleSize, reticuleSize);
+			Color C = Color.white;
+			if (Locking.target) {
+				C = Color.red;
+			}
+			else {
+				C = Color.white;
+			}
+			GUI.color = C;
 			GUI.DrawTexture(position, CrossHair);
 			}
 
